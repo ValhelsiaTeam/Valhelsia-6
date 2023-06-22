@@ -1,0 +1,22 @@
+version:3120
+autoJump:false
+enableVsync:false
+realmsNotifications:false
+renderDistance:12
+simulationDistance:12
+entityDistanceScaling:1.0
+guiScale:3
+maxFps:120
+resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","V Slab Compat Generated Pack","resources/Updated Engineering","file/Valhelsia UI.zip","file/Valhelsia Paintings.zip","quark:emote_resources","file/xali\u0027s Bushy Leaves v3.2.0.zip"]
+incompatibleResourcePacks:["quark:emote_resources"]
+mipmapLevels:0
+soundCategory_master:0.5
+soundCategory_music:0.25
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:0.5
+soundCategory_voice:1.0
