@@ -7,6 +7,8 @@ entityDistanceScaling:1.0
 guiScale:3
 maxFps:120
 mipmapLevels:0
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","file/Valhelsia UI.zip","file/xalis Bushy Leaves v3.3.0.zip"]
+incompatibleResourcePacks:["file/Valhelsia UI.zip","file/xalis Bushy Leaves v3.3.0.zip"]
 soundCategory_master:0.5
 soundCategory_music:0.25
 soundCategory_record:1.0
