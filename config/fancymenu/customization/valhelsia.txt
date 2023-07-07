@@ -75,6 +75,11 @@ customization {
 }
 
 customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
   orientation = top-left
   hidden = false
   x = 186
@@ -157,7 +162,10 @@ customization {
 }
 
 customization {
-  identifier = %id=376346%
-  action = hidebutton
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 12
 }
 
