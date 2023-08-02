@@ -7,8 +7,8 @@ entityDistanceScaling:1.0
 guiScale:3
 maxFps:120
 mipmapLevels:0
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","file/Valhelsia Paintings.zip","file/Valhelsia UI.zip","file/xalis Bushy Leaves v3.3.0.zip"]
-incompatibleResourcePacks:["file/xalis Bushy Leaves v3.3.0.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","Betterjukebox Generated Pack","file/Valhelsia Paintings.zip","file/Valhelsia UI.zip","file/xali\u0027s Bushy Leaves v3.4.1.zip"]
+incompatibleResourcePacks:[]
 soundCategory_master:0.5
 soundCategory_music:0.25
 soundCategory_record:1.0
