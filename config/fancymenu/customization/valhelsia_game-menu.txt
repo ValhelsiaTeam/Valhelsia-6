@@ -72,7 +72,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  identifier = %id=504330%
   orientation = mid-centered
   x = 4
   action = movebutton
