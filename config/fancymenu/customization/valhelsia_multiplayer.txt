@@ -1,0 +1,108 @@
+type = menu
+
+customization-meta {
+  identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=580970%
+  orientation = bottom-centered
+  x = 80
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=450946%
+  orientation = bottom-centered
+  x = -50
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=346946%
+  orientation = bottom-centered
+  x = -154
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=660946%
+  orientation = bottom-centered
+  x = 160
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=554946%
+  orientation = bottom-centered
+  x = 54
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=424970%
+  orientation = bottom-centered
+  x = -76
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=34636%
+  orientation = bottom-centered
+  x = -260
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=45036%
+  orientation = bottom-centered
+  x = -260
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=55436%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=55436%
+  orientation = bottom-centered
+  x = -260
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=502970%
+  orientation = bottom-centered
+  x = 2
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=346970%
+  orientation = bottom-centered
+  x = -154
+  action = movebutton
+  y = -30
+}
+

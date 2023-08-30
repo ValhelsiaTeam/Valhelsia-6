@@ -30,6 +30,19 @@ customization {
 }
 
 customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 11
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -100
@@ -159,13 +172,5 @@ customization {
   y = 12
   label = Rent a Server
   height = 20
-}
-
-customization {
-  identifier = %id=376322%
-  orientation = mid-centered
-  x = -124
-  action = movebutton
-  y = 12
 }
 
