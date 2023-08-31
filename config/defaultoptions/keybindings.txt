@@ -52,7 +52,7 @@ key_key.integratedterminals.terminal.tab.next:key.keyboard.tab:NONE
 key_key.integratedterminals.terminal.tab.previous:key.keyboard.tab:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:key.keyboard.c:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:key.keyboard.c:NONE
-key_key.integratedterminals.terminal.craftinggrid.balance:key.mouse.left:NONE
+key_key.integratedterminals.terminal.craftinggrid.balance:key.keyboard.b:NONE
 key_key.integratedterminals.terminal.portable.open:key.keyboard.c:NONE
 key_neat.keybind.toggle:key.keyboard.unknown:NONE
 key_key.modernfix.config:key.keyboard.unknown:NONE
@@ -65,11 +65,11 @@ key_framedblocks.key.update_cull:key.keyboard.f9:NONE
 key_framedblocks.key.wipe_cache:key.keyboard.unknown:NONE
 key_pneumaticcraft.armor.options:key.keyboard.u:CONTROL
 key_pneumaticcraft.helmet.hack:key.keyboard.h:CONTROL
-key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y:NONE
+key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y:CONTROL
 key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_pneumaticcraft.boots.jet_boots:key.keyboard.space:NONE
-key_key.zoom:key.keyboard.c:NONE
+key_key.zoom:key.keyboard.unknown:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.unknown:NONE
 key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE
@@ -90,7 +90,7 @@ key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown:NONE
 key_gui.xaero_alternative_list_players:key.keyboard.unknown:NONE
 key_gui.xaero_toggle_tracked_players:key.keyboard.unknown:NONE
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown:NONE
-key_gui.xaero_minimap_settings:key.keyboard.unknown:NONE
+key_gui.xaero_minimap_settings:key.keyboard.y:NONE
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.structurize.teleport:key.keyboard.unknown:NONE
@@ -110,7 +110,7 @@ key_key.ars_nouveau.open_book:key.keyboard.c:NONE
 key_key.ars_nouveau.selection_hud:key.keyboard.v:NONE
 key_key.ars_nouveau.next_slot:key.keyboard.x:NONE
 key_key.ars_nouveau.previous_slot:key.keyboard.z:NONE
-key_key.ars_nouveau.head_curio_hotkey:key.keyboard.g:NONE
+key_key.ars_nouveau.head_curio_hotkey:key.keyboard.unknown:NONE
 key_key.ars_nouveau.qc1:key.keyboard.unknown:NONE
 key_key.ars_nouveau.qc2:key.keyboard.unknown:NONE
 key_key.ars_nouveau.qc3:key.keyboard.unknown:NONE
@@ -133,11 +133,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b:NONE
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c:NONE
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown:NONE
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle:NONE
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:NONE
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:NONE
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:NONE
-key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:NONE
 key_fpsreducer.key.openGui:key.keyboard.end:NONE
 key_fpsreducer.key.forceIdle:key.keyboard.pause:NONE
 key_key.carry.desc:key.keyboard.left.shift:NONE
