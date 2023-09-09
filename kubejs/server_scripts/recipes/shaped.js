@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
   };
 
   // Valhelsia
-  // plusWrapped(Item.of('akashictome:tome', AKASHIC_TOME_NBT), 'minecraft:book', '#forge:bookshelves', 'filled_akashic_tome');
+  //plusWrapped(Item.of('akashictome:tome', AKASHIC_TOME_NBT), 'minecraft:book', '#forge:bookshelves', 'filled_akashic_tome');
 
   // Minecraft
   shaped3x3('minecraft:cobweb', 'minecraft:string', 'cobweb');
@@ -202,68 +202,107 @@ ServerEvents.recipes(event => {
     B: '#minecraft:planks'
   }).id(`${ID_PREFIX}ladder`);
 
+  // Ars Nouveau
+  event.shaped('ars_nouveau:novice_spell_book', [
+    'ABC',
+    'DE ',
+    '   ',
+  ], {
+    A: 'minecraft:book',
+    B: 'enlightened_end:starsteel_shovel',
+    C: 'enlightened_end:starsteel_pickaxe',
+    D: 'enlightened_end:starsteel_axe',
+    E: 'enlightened_end:starsteel_sword',
+  }).id(`${ID_PREFIX}novice_spell_book`);
+
+  event.shaped('ars_nouveau:apprentice_spell_book', [
+    'ABC',
+    'CCD',
+    'DEE',
+  ], {
+    A: 'ars_nouveau:novice_spell_book',
+    B: 'forbidden_arcanus:obsidian_skull',
+    C: 'forbidden_arcanus:stellarite_piece',
+    D: 'create:polished_rose_quartz',
+    E: 'minecraft:blaze_rod',
+  }).id(`${ID_PREFIX}apprentice_spell_book`);
+
+  event.shaped('ars_nouveau:archmage_spell_book', [
+    'ABC',
+    'DDE',
+    'FFG',
+  ], {
+    A: 'ars_nouveau:apprentice_spell_book',
+    B: 'forbidden_arcanus:dark_nether_star',
+    C: 'ars_nouveau:wilden_tribute',
+    D: 'deeperdarker:reinforced_echo_shard',
+    E: 'alexsmobs:void_worm_eye',
+    F: 'forbidden_arcanus:dragon_scale',
+    G: 'minecraft:totem_of_undying',
+  }).id(`${ID_PREFIX}archmage_spell_book`);
+
   // Darker Depths
-  // shaped2x2('darkerdepths:ash_block', '#valhelsia:ash', 'ash_block');
+  //shaped2x2('darkerdepths:ash_block', '#valhelsia:ash', 'ash_block');
 
-  // vslab('darkerdepths:petrified_vertical_slab', 'darkerdepths:petrified_slab', 'darkerdepths/petrified_vertical_slab');
+  //vslab('darkerdepths:petrified_vertical_slab', 'darkerdepths:petrified_slab', 'darkerdepths/petrified_vertical_slab');
 
-  // vslab('darkerdepths:aridrock_vertical_slab', 'darkerdepths:aridrock_slab', 'darkerdepths/aridrock_vertical_slab');
-  // vslab('darkerdepths:aridrock_bricks_vertical_slab', 'darkerdepths:aridrock_bricks_slab', 'darkerdepths/aridrock_bricks_vertical_slab');
-  // vslab('darkerdepths:polished_aridrock_vertical_slab', 'darkerdepths:polished_aridrock_slab', 'darkerdepths/polished_aridrock_vertical_slab');
+  //vslab('darkerdepths:aridrock_vertical_slab', 'darkerdepths:aridrock_slab', 'darkerdepths/aridrock_vertical_slab');
+  //vslab('darkerdepths:aridrock_bricks_vertical_slab', 'darkerdepths:aridrock_bricks_slab', 'darkerdepths/aridrock_bricks_vertical_slab');
+  //vslab('darkerdepths:polished_aridrock_vertical_slab', 'darkerdepths:polished_aridrock_slab', 'darkerdepths/polished_aridrock_vertical_slab');
 
-  // vslab('darkerdepths:grimestone_vertical_slab', 'darkerdepths:grimestone_slab', 'darkerdepths/grimestone_vertical_slab');
-  // vslab('darkerdepths:grimestone_bricks_vertical_slab', 'darkerdepths:grimestone_bricks_slab', 'darkerdepths/grimestone_bricks_vertical_slab');
-  // vslab('darkerdepths:polished_grimestone_vertical_slab', 'darkerdepths:polished_grimestone_slab', 'darkerdepths/polished_grimestone_vertical_slab');
+  //vslab('darkerdepths:grimestone_vertical_slab', 'darkerdepths:grimestone_slab', 'darkerdepths/grimestone_vertical_slab');
+  //vslab('darkerdepths:grimestone_bricks_vertical_slab', 'darkerdepths:grimestone_bricks_slab', 'darkerdepths/grimestone_bricks_vertical_slab');
+  //vslab('darkerdepths:polished_grimestone_vertical_slab', 'darkerdepths:polished_grimestone_slab', 'darkerdepths/polished_grimestone_vertical_slab');
 
-  // vslab('darkerdepths:limestone_vertical_slab', 'darkerdepths:limestone_slab', 'darkerdepths/limestone_vertical_slab');
-  // vslab('darkerdepths:limestone_bricks_vertical_slab', 'darkerdepths:limestone_bricks_slab', 'darkerdepths/limestone_bricks_vertical_slab');
-  // vslab('darkerdepths:polished_limestone_vertical_slab', 'darkerdepths:polished_limestone_slab', 'darkerdepths/polished_limestone_vertical_slab');
+  //vslab('darkerdepths:limestone_vertical_slab', 'darkerdepths:limestone_slab', 'darkerdepths/limestone_vertical_slab');
+  //vslab('darkerdepths:limestone_bricks_vertical_slab', 'darkerdepths:limestone_bricks_slab', 'darkerdepths/limestone_bricks_vertical_slab');
+  //vslab('darkerdepths:polished_limestone_vertical_slab', 'darkerdepths:polished_limestone_slab', 'darkerdepths/polished_limestone_vertical_slab');
 
-  // vslab('darkerdepths:shale_vertical_slab', 'darkerdepths:shale_slab', 'darkerdepths/shale_vertical_slab');
-  // vslab('darkerdepths:shale_bricks_vertical_slab', 'darkerdepths:shale_bricks_slab', 'darkerdepths/shale_bricks_vertical_slab');
-  // vslab('darkerdepths:polished_shale_vertical_slab', 'darkerdepths:polished_shale_slab', 'darkerdepths/polished_shale_vertical_slab');
+  //vslab('darkerdepths:shale_vertical_slab', 'darkerdepths:shale_slab', 'darkerdepths/shale_vertical_slab');
+  //vslab('darkerdepths:shale_bricks_vertical_slab', 'darkerdepths:shale_bricks_slab', 'darkerdepths/shale_bricks_vertical_slab');
+  //vslab('darkerdepths:polished_shale_vertical_slab', 'darkerdepths:polished_shale_slab', 'darkerdepths/polished_shale_vertical_slab');
 
   // Decorative Blocks
-  // event.shaped('2x decorative_blocks:chain', [
-  //   'A',
-  //   'B',
-  //   'A'
-  // ], {
-  //   A: 'minecraft:iron_ingot',
-  //   B: 'minecraft:iron_nugget'
-  // }).id(`${ID_PREFIX}big_chain`);
+  //event.shaped('2x decorative_blocks:chain', [
+  //  'A',
+  //  'B',
+  //  'A'
+  //], {
+  //  A: 'minecraft:iron_ingot',
+  //  B: 'minecraft:iron_nugget'
+  //}).id(`${ID_PREFIX}big_chain`);
 
-  // event.shaped('4x decorative_blocks:rocky_dirt', [
-  //   'AB',
-  //   'BA'
-  // ], {
-  //   A: 'minecraft:dirt',
-  //   B: '#forge:cobblestone'
-  // }).id(`${ID_PREFIX}rocky_dirt`);
+  //event.shaped('4x decorative_blocks:rocky_dirt', [
+  //  'AB',
+  //  'BA'
+  //], {
+  //  A: 'minecraft:dirt',
+  //  B: '#forge:cobblestone'
+  //}).id(`${ID_PREFIX}rocky_dirt`);
 
   // Ecologics
-  // shaped2x2('minecraft:moss_block', 'ecologics:surface_moss', 'moss_block');
+  //shaped2x2('minecraft:moss_block', 'ecologics:surface_moss', 'moss_block');
 
   // Farmer's Delight
   shaped3x3('farmersdelight:organic_compost', 'minecolonies:compost', 'organic_compost_from_minecolonies_compost');
   shaped2x2('farmersdelight:canvas', 'supplementaries:flax', 'canvas_from_flax');
 
   // Immersive Engineering
-  // shaped3x3('immersiveengineering:storage_silver', '#forge:ingots/silver', 'silver_block_from_silver_ingots');
-  // shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
-  // shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
+  //shaped3x3('immersiveengineering:storage_silver', '#forge:ingots/silver', 'silver_block_from_silver_ingots');
+  //shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
+  //shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
 
   // Sophisticated Backpacks
-  // event.shaped('sophisticatedbackpacks:backpack', [
-  //   'ACA',
-  //   'BDB',
-  //   'BBB'
-  // ], {
-  //   A: '#valhelsia:ropes',
-  //   B: '#forge:leather',
-  //   C: 'quark:ravager_hide',
-  //   D: '#forge:chests/wooden'
-  // }).id(`${ID_PREFIX}backpack`);
+  //event.shaped('sophisticatedbackpacks:backpack', [
+  //  'ACA',
+  //  'BDB',
+  //  'BBB'
+  //], {
+  //  A: '#valhelsia:ropes',
+  //  B: '#forge:leather',
+  //  C: 'quark:ravager_hide',
+  //  D: '#forge:chests/wooden'
+  //}).id(`${ID_PREFIX}backpack`);
 
   // Supplementaries
   event.shaped('supplementaries:quiver', [
