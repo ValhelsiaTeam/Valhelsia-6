@@ -36,89 +36,89 @@ ServerEvents.recipes(event => {
     'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe.
 
     // Botania
-    'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
+    //'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
 
     // Create
 
     // Darker Depths
-    // 'darkerdepths:rope', // Replaced with Supplementaries Rope
-    // 'darkerdepths:silver_block', // Redundant
-    // 'darkerdepths:silver_ingot', // Redundant
-    // 'darkerdepths:raw_silver',
+    //'darkerdepths:rope', // Replaced with Supplementaries Rope
+    //'darkerdepths:silver_block', // Redundant
+    //'darkerdepths:silver_ingot', // Redundant
+    //'darkerdepths:raw_silver',
 
     // Decorative Blocks
-    // 'decorative_blocks:chain', // Replaced with a different recipe.
-    // 'decorative_blocks:dirt_from_rocky_dirt', // Removed entirely, no neat way to uncraft with the new recipe.
-    // 'decorative_blocks:rocky_dirt', // Replaced with a different recipe.
+    //'decorative_blocks:chain', // Replaced with a different recipe.
+    //'decorative_blocks:dirt_from_rocky_dirt', // Removed entirely, no neat way to uncraft with the new recipe.
+    //'decorative_blocks:rocky_dirt', // Replaced with a different recipe.
 
     // Ecologics
-    // 'ecologics:surface_moss',
-    // 'ecologics:moss_block',
+    //'ecologics:surface_moss',
+    //'ecologics:moss_block',
 
     // Farmer's Delight
-    // 'farmersdelight:cake_from_milk_bottle', // Redundant: Same as Neapolitan's recipe.
+    //'farmersdelight:cake_from_milk_bottle', // Redundant: Same as Neapolitan's recipe.
 
     // Galosphere
-    // 'galosphere:raw_silver',
-    // 'galosphere:raw_silver_block',
-    // 'galosphere:silver_ingot_from_nuggets',
-    // 'galosphere:silver_ingot',
-    // 'galosphere:silver_nugget',
+    //'galosphere:raw_silver',
+    //'galosphere:raw_silver_block',
+    //'galosphere:silver_ingot_from_nuggets',
+    //'galosphere:silver_ingot',
+    //'galosphere:silver_nugget',
 
     // Immersive Engineering
-    // 'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
-    // 'immersiveengineering:metalpress/blaze_rod', // Replaced to avoid blaze powder duping - changed from 4 dust to 6.
+    //'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
+    //'immersiveengineering:metalpress/blaze_rod', // Replaced to avoid blaze powder duping - changed from 4 dust to 6.
     
     // Redundant IE Metal Recipes (either duplicate or replaced)
-    // 'immersiveengineering:crafting/ingot_lead_to_storage_lead',
-    // 'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
-    // 'immersiveengineering:crafting/ingot_silver_to_storage_silver',
-    // 'immersiveengineering:crafting/ingot_steel_to_storage_steel',
+    //'immersiveengineering:crafting/ingot_lead_to_storage_lead',
+    //'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
+    //'immersiveengineering:crafting/ingot_silver_to_storage_silver',
+    //'immersiveengineering:crafting/ingot_steel_to_storage_steel',
 
-    // 'immersiveengineering:crafting/storage_lead_to_ingot_lead',
-    // 'immersiveengineering:crafting/storage_uranium_to_ingot_uranium',
-    // 'immersiveengineering:crafting/storage_steel_to_ingot_steel',
+    //'immersiveengineering:crafting/storage_lead_to_ingot_lead',
+    //'immersiveengineering:crafting/storage_uranium_to_ingot_uranium',
+    //'immersiveengineering:crafting/storage_steel_to_ingot_steel',
 
-    // 'immersiveengineering:crafting/nugget_copper_to_copper_ingot',
-    // 'immersiveengineering:crafting/nugget_lead_to_ingot_lead',
-    // 'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium',
-    // 'immersiveengineering:crafting/nugget_silver_to_ingot_silver',
-    // 'immersiveengineering:crafting/nugget_steel_to_ingot_steel',
+    //'immersiveengineering:crafting/nugget_copper_to_copper_ingot',
+    //'immersiveengineering:crafting/nugget_lead_to_ingot_lead',
+    //'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium',
+    //'immersiveengineering:crafting/nugget_silver_to_ingot_silver',
+    //'immersiveengineering:crafting/nugget_steel_to_ingot_steel',
 
-    // 'immersiveengineering:crafting/copper_ingot_to_nugget_copper',
-    // 'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
-    // 'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
-    // 'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
+    //'immersiveengineering:crafting/copper_ingot_to_nugget_copper',
+    //'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
+    //'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
+    //'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
 
-    // 'immersiveengineering:crafting/raw_block_lead_to_raw_lead',
-    // 'immersiveengineering:crafting/raw_block_uranium_to_raw_uranium',
+    //'immersiveengineering:crafting/raw_block_lead_to_raw_lead',
+    //'immersiveengineering:crafting/raw_block_uranium_to_raw_uranium',
 
-    // 'immersiveengineering:crafting/raw_lead_to_raw_block_lead',
-    // 'immersiveengineering:crafting/raw_uranium_to_raw_block_uranium',
+    //'immersiveengineering:crafting/raw_lead_to_raw_block_lead',
+    //'immersiveengineering:crafting/raw_uranium_to_raw_block_uranium',
 
     // Mekanism
-    // 'mekanism:charcoal',
-    // 'mekanism:storage_blocks/charcoal',
-    // 'mekanismtools:steel/tools/sword',
-    // 'mekanismtools:steel/tools/pickaxe',
-    // 'mekanismtools:steel/tools/axe',
-    // 'mekanismtools:steel/tools/shovel',
-    // 'mekanismtools:steel/tools/hoe',
-    // 'mekanismtools:steel/armor/helmet',
-    // 'mekanismtools:steel/armor/chestplate',
-    // 'mekanismtools:steel/armor/leggings',
-    // 'mekanismtools:steel/armor/boots',
-    // 'mekanismtools:lapis_lazuli/tools/sword',
-    // 'mekanismtools:lapis_lazuli/tools/pickaxe',
-    // 'mekanismtools:lapis_lazuli/tools/axe',
-    // 'mekanismtools:lapis_lazuli/tools/shovel',
-    // 'mekanismtools:lapis_lazuli/tools/hoe',
-    // 'mekanismtools:lapis_lazuli/tools/paxel',
-    // 'mekanismtools:lapis_lazuli/shield',
-    // 'mekanismtools:lapis_lazuli/armor/helmet',
-    // 'mekanismtools:lapis_lazuli/armor/chestplate', 
-    // 'mekanismtools:lapis_lazuli/armor/leggings',
-    // 'mekanismtools:lapis_lazuli/armor/boots',
+    //'mekanism:charcoal',
+    //'mekanism:storage_blocks/charcoal',
+    //'mekanismtools:steel/tools/sword',
+    //'mekanismtools:steel/tools/pickaxe',
+    //'mekanismtools:steel/tools/axe',
+    //'mekanismtools:steel/tools/shovel',
+    //'mekanismtools:steel/tools/hoe',
+    //'mekanismtools:steel/armor/helmet',
+    //'mekanismtools:steel/armor/chestplate',
+    //'mekanismtools:steel/armor/leggings',
+    //'mekanismtools:steel/armor/boots',
+    //'mekanismtools:lapis_lazuli/tools/sword',
+    //'mekanismtools:lapis_lazuli/tools/pickaxe',
+    //'mekanismtools:lapis_lazuli/tools/axe',
+    //'mekanismtools:lapis_lazuli/tools/shovel',
+    //'mekanismtools:lapis_lazuli/tools/hoe',
+    //'mekanismtools:lapis_lazuli/tools/paxel',
+    //'mekanismtools:lapis_lazuli/shield',
+    //'mekanismtools:lapis_lazuli/armor/helmet',
+    //'mekanismtools:lapis_lazuli/armor/chestplate', 
+    //'mekanismtools:lapis_lazuli/armor/leggings',
+    //'mekanismtools:lapis_lazuli/armor/boots',
 
     // MineColonies
     'minecolonies:chainmailhelmet', // Replaced with a different recipe.
@@ -129,23 +129,23 @@ ServerEvents.recipes(event => {
     // Minecraft
     'minecraft:cake', // Duplicate Recipe.
     'minecraft:ladder',
-    // 'minecraft:furnace', // Quark provides an alternative.
+    //'minecraft:furnace', // Quark provides an alternative.
 
     // PneumaticCraft: Repressurized
     'pneumaticcraft:copper_nugget', // Duplicate Recipe.
 
     // Quark
-    // 'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
-    // 'quark:building/crafting/oak_ladder', // Duplicate recipe.
-    // 'quark:building/crafting/compressed/carrot_crate', // Duplicate recipe.
-    // 'quark:building/crafting/compressed/potato_crate', // Duplicate recipe.
-    // 'quark:building/crafting/compressed/beetroot_crate', // Duplicate recipe.
+    //'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
+    //'quark:building/crafting/oak_ladder', // Duplicate recipe.
+    //'quark:building/crafting/compressed/carrot_crate', // Duplicate recipe.
+    //'quark:building/crafting/compressed/potato_crate', // Duplicate recipe.
+    //'quark:building/crafting/compressed/beetroot_crate', // Duplicate recipe.
 
     // Quark Oddities
-    // 'quark:oddities/crafting/backpack', // Removed entirely.
+    //'quark:oddities/crafting/backpack', // Removed entirely.
 
     // Sophisticated Backpacks
-    // 'sophisticatedbackpacks:backpack', // Replaced with a different recipe.
+    //'sophisticatedbackpacks:backpack', // Replaced with a different recipe.
 
     // Waystones
     'waystones:warp_scroll', // Replaced with a different recipe.
