@@ -131,6 +131,9 @@ ServerEvents.recipes(event => {
     'minecraft:ladder',
     // 'minecraft:furnace', // Quark provides an alternative.
 
+    // PneumaticCraft: Repressurized
+    'pneumaticcraft:copper_nugget', // Duplicate Recipe.
+
     // Quark
     // 'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
     // 'quark:building/crafting/oak_ladder', // Duplicate recipe.
