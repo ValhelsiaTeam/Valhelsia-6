@@ -209,10 +209,10 @@ ServerEvents.recipes(event => {
     '   ',
   ], {
     A: 'minecraft:book',
-    B: 'enlightened_end:starsteel_shovel',
-    C: 'enlightened_end:starsteel_pickaxe',
-    D: 'enlightened_end:starsteel_axe',
-    E: 'enlightened_end:starsteel_sword',
+    B: 'aether:gravitite_shovel',
+    C: 'aether:gravitite_pickaxe',
+    D: 'aether:gravitite_axe',
+    E: 'aether:gravitite_sword',
   }).id(`${ID_PREFIX}novice_spell_book`);
 
   event.shaped('ars_nouveau:apprentice_spell_book', [
