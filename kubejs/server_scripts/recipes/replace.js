@@ -33,42 +33,120 @@ ServerEvents.recipes(event => {
   const replaceInputType = (recipeType, from, to) => {event.replaceInput({type: recipeType}, from, to)};
   const replaceOutputType = (recipeType, from, to) => {event.replaceOutput({type: recipeType}, from, to)};
 
+  // ----- Fixes -----
+  replaceOutputID('enlightened_end:regleam_iridescent_bismuth_sheets', 'enlightened_end:dazzling_bismuth_sheets', 'enlightened_end:iridescent_bismuth_sheets');
+  replaceInputID('minecraft:beacon', 'enlightened_end:xenon_gas', '#forge:obsidian');
+  replaceInputID('minecraft:ender_chest', 'enlightened_end:malachite', '#forge:obsidian');
+
   // ----- Compatibility -----
   // Use tags instead of items for all dye colours.
   COLORS.forEach((color) => replaceInput(`minecraft:${color}_dye`, `#forge:dyes/${color}`));
 
+  // Ingot Compatibility
+  replaceInput('ad_astra:calorite_ingot', '#forge:ingots/calorite');
+  replaceInput('ad_astra:desh_ingot', '#forge:ingots/desh');
+  replaceInput('ad_astra:steel_ingot', '#forge:ingots/steel');
   replaceInput('forbidden_arcanus:deorum_ingot', '#forge:ingots/deorum');
   replaceInput('forbidden_arcanus:obsidian_ingot', '#forge:ingots/obsidian');
-  replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
   replaceInput('galosphere:silver_ingot', '#forge:ingots/silver');
-  replaceInput('galosphere:silver_nugget', '#forge:nuggets/silver');
-  replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
-  //replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
   //replaceInput('immersiveengineering:ingot_silver', '#forge:ingots/silver');
-  //replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
+
+  // Plate Compatibility
+  replaceInput('ad_astra:calorite_plate', '#forge:plates/calorite');
+  replaceInput('ad_astra:desh_plate', '#forge:plates/desh');
+  replaceInput('ad_astra:steel_plate', '#forge:plates/steel');
+
+  // Nugget Compatibility
+  replaceInput('galosphere:silver_nugget', '#forge:nuggets/silver');
+  //replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
+
+  // Raw Material Compatibility
+  replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
   //replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
+
+  // Storage Block Compatibility
+  replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
+  //replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
   //replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
   //replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
+  
+  // Cheese Compatibility
+  //replaceInput('ad_astra:cheese', '#valhelsia:cheese');
+  //replaceInput('brewinandchewin:flaxen_cheese_wedge', '#valhelsia:cheese');
 
-  // Rose Quartz Unification
+  // Electron Tube Compatibility
+  //replaceInput('create:electron_tube', '#valhelsia:electron_tubes');
+  //replaceInput('immersiveengineering:electron_tube', '#valhelsia:electron_tubes');
+
+  // Rope Unification
+  replaceInput('farmersdelight:rope', '#valhelsia:ropes');
+  replaceInput('supplementaries:rope', '#valhelsia:ropes');
+
+  // Rose Quartz Compatibility
   replaceInput('biomesoplenty:rose_quartz_shard', '#valhelsia:rose_quartz');
   //replaceInput('cave_enhancements:rose_quartz', '#valhelsia:rose_quartz');
   replaceInput('create:rose_quartz', '#valhelsia:rose_quartz');
   
-  // Rope Unification
-  replaceInput('farmersdelight:rope', '#valhelsia:ropes');
-  replaceInput('supplementaries:rope', '#valhelsia:ropes');
-  
-  // Going to add this later, needs some changes elsewhere.
-  //replaceInput('minecraft:slime_ball', '#forge:slimeballs');
+  // Slime Compatibility
+  replaceInputID([
+    'minecraft:lead',
+    'minecraft:sticky_piston',
+    //'botania:runic_altar/summer',
+    'forbidden_arcanus:wax',
+    //'moreminecarts:coupler',
+    'supplementaries:item_lore_display',
+    'supplementaries:slingshot',
+  ], 'minecraft:slime_ball', '#forge:slimeballs');
 
-  replaceInputID('minecraft:writable_book', 'minecraft:feather', '#forge:feathers');
-  replaceInputID('xercamusic:music_sheet', 'minecraft:feather', '#forge:feathers');
+  // Feather Compatibility
+  replaceInputID([
+    'minecraft:writable_book',
+    'ars_elemental:flight_alt',
+    'ars_nouveau:orange_sbed',
+    'ars_nouveau:ritual_cloudshaping',
+    //'botania:flighttiara_0',
+    //'botania:tornado_rod',
+    //'botania:runic_altar/air',
+    'darkutils:crafting/levitation_plate',
+    'darkutils:crafting/slowfall_plate',
+    'enlightened_end:helium_dart',
+    'enlightened_end:xenon_dart',
+    'forbidden_arcanus:corrupted_pixie',
+    'minecolonies:blockhutschool',
+    'pneumaticcraft:jet_boots_upgrade_2',
+    'xercamusic:music_sheet',
+  ], 'minecraft:feather', '#forge:feathers');
   event.replaceInput({output:'#minecraft:arrows'}, 'minecraft:feather', '#forge:feathers');
-  // TODO: Check which other recipes need feathers changed to use tags.
 
+  // Obsidian Compatibility
+  event.replaceInputID([
+    'minecraft:beacon',
+    'minecraft:enchanting_table',
+    'minecraft:ender_chest',
+    'ad_astra:reinforced_door',
+    'alexsmobs:transmutation_table',
+    //'botania:corporea_index',
+    //'botania:ender_hand',
+    //'botania:ender_eye_block',
+    //'botania:mana_void',
+    //'botania:starfield',
+    'fluxnetworks:fluxconfigurator',
+    'fluxnetworks:fluxcore',
+    'mekanism:module_gyroscopic_stabilization_unit',
+    'minecolonies:blockhutnetherworker',
+    //'quark:automation/crafting/ender_watcher',
+    'waystones:mossy_waystone',
+    'waystones:sandy_waystone',
+    'waystones:sharestone',
+    'waystones:waystone',
+  ],'minecraft:obsidian','#forge:obsidian');
+
+  // Stick / Rod Compatibility
   event.replaceInput({output:'#minecraft:arrows'}, 'minecraft:stick', '#forge:rods/wooden');
-  // TODO: Check which other recipes need sticks changed to use tags.
+  replaceInputID([
+    'galosphere_delight:silver_kitchen_hammer',
+    // TODO: Check which other recipes need sticks changed to use tags.
+  ], 'minecraft:stick', '#forge:rods/wooden');
 
   replaceInputID('galosphere:silver_panel', 'galosphere:silver_block', '#forge:storage_blocks/silver');
   
