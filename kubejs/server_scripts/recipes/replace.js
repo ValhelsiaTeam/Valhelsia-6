@@ -86,67 +86,13 @@ ServerEvents.recipes(event => {
   replaceInput('biomesoplenty:rose_quartz_shard', '#valhelsia:rose_quartz');
   //replaceInput('cave_enhancements:rose_quartz', '#valhelsia:rose_quartz');
   replaceInput('create:rose_quartz', '#valhelsia:rose_quartz');
-  
-  // Slime Compatibility
-  replaceInputID([
-    'minecraft:lead',
-    'minecraft:sticky_piston',
-    //'botania:runic_altar/summer',
-    'forbidden_arcanus:wax',
-    //'moreminecarts:coupler',
-    'supplementaries:item_lore_display',
-    'supplementaries:slingshot',
-  ], 'minecraft:slime_ball', '#forge:slimeballs');
-
-  // Feather Compatibility
-  replaceInputID([
-    'minecraft:writable_book',
-    'ars_elemental:flight_alt',
-    'ars_nouveau:orange_sbed',
-    'ars_nouveau:ritual_cloudshaping',
-    //'botania:flighttiara_0',
-    //'botania:tornado_rod',
-    //'botania:runic_altar/air',
-    'darkutils:crafting/levitation_plate',
-    'darkutils:crafting/slowfall_plate',
-    'enlightened_end:helium_dart',
-    'enlightened_end:xenon_dart',
-    'forbidden_arcanus:corrupted_pixie',
-    'minecolonies:blockhutschool',
-    'pneumaticcraft:jet_boots_upgrade_2',
-    'xercamusic:music_sheet',
-  ], 'minecraft:feather', '#forge:feathers');
-  event.replaceInput({output:'#minecraft:arrows'}, 'minecraft:feather', '#forge:feathers');
-
-  // Obsidian Compatibility
-  event.replaceInputID([
-    'minecraft:beacon',
-    'minecraft:enchanting_table',
-    'minecraft:ender_chest',
-    'ad_astra:reinforced_door',
-    'alexsmobs:transmutation_table',
-    //'botania:corporea_index',
-    //'botania:ender_hand',
-    //'botania:ender_eye_block',
-    //'botania:mana_void',
-    //'botania:starfield',
-    'fluxnetworks:fluxconfigurator',
-    'fluxnetworks:fluxcore',
-    'mekanism:module_gyroscopic_stabilization_unit',
-    'minecolonies:blockhutnetherworker',
-    //'quark:automation/crafting/ender_watcher',
-    'waystones:mossy_waystone',
-    'waystones:sandy_waystone',
-    'waystones:sharestone',
-    'waystones:waystone',
-  ],'minecraft:obsidian','#forge:obsidian');
 
   // Stick / Rod Compatibility
   event.replaceInput({output:'#minecraft:arrows'}, 'minecraft:stick', '#forge:rods/wooden');
-  replaceInputID([
-    'galosphere_delight:silver_kitchen_hammer',
+  //replaceInputID([
+    //'galosphere_delight:silver_kitchen_hammer',
     // TODO: Check which other recipes need sticks changed to use tags.
-  ], 'minecraft:stick', '#forge:rods/wooden');
+  //], 'minecraft:stick', '#forge:rods/wooden');
 
   replaceInputID('galosphere:silver_panel', 'galosphere:silver_block', '#forge:storage_blocks/silver');
   
