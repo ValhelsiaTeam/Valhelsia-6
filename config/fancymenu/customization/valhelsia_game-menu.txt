@@ -30,14 +30,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  orientation = mid-centered
-  x = 4
-  action = movebutton
-  y = -4
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
   x = -102
@@ -78,6 +70,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=374282%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -52
 }
 
 customization {
@@ -135,10 +135,10 @@ customization {
 }
 
 customization {
-  identifier = %id=374282%
+  identifier = %id=504324%
   orientation = mid-centered
-  x = -126
+  x = 4
   action = movebutton
-  y = -52
+  y = -4
 }
 
