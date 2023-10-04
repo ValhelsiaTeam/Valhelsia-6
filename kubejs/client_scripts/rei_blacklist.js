@@ -27,6 +27,14 @@ REIEvents.hide('item', event => {
     'minecraft:structure_block',
     'minecraft:structure_void',
 
+    // Ad Astra
+    'ad_astra:iron_rod',
+    'ad_astra:iron_plate',
+    'ad_astra:steel_block',
+    'ad_astra:steel_ingot',
+    'ad_astra:steel_nugget',
+    //'ad_astra:steel_plate',
+
     // Advanced Peripherals
     'advancedperipherals:rs_bridge',
 
@@ -156,26 +164,26 @@ REIEvents.hide('item', event => {
 
     // Mekanism
     //'mekanism:block_charcoal',
-    //'mekanism:creative_fluid_tank',
-    //'mekanism:creative_chemical_tank',
+    'mekanism:creative_fluid_tank',
+    'mekanism:creative_chemical_tank',
 
     // Mekanism Additions
-    //'mekanismadditions:baby_creeper_spawn_egg',
-    //'mekanismadditions:baby_enderman_spawn_egg',
-    //'mekanismadditions:baby_wither_skeleton_spawn_egg',
+    'mekanismadditions:baby_creeper_spawn_egg',
+    'mekanismadditions:baby_enderman_spawn_egg',
+    'mekanismadditions:baby_wither_skeleton_spawn_egg',
 
     // Mekanism Tools
-    //'mekanismtools:lapis_lazuli_helmet',
-    //'mekanismtools:lapis_lazuli_chestplate',
-    //'mekanismtools:lapis_lazuli_leggings',
-    //'mekanismtools:lapis_lazuli_boots',
-    //'mekanismtools:lapis_lazuli_sword',
-    //'mekanismtools:lapis_lazuli_pickaxe',
-    //'mekanismtools:lapis_lazuli_axe',
-    //'mekanismtools:lapis_lazuli_shovel',
-    //'mekanismtools:lapis_lazuli_hoe',
-    //'mekanismtools:lapis_lazuli_paxel',
-    //'mekanismtools:lapis_lazuli_shield',
+    'mekanismtools:lapis_lazuli_helmet',
+    'mekanismtools:lapis_lazuli_chestplate',
+    'mekanismtools:lapis_lazuli_leggings',
+    'mekanismtools:lapis_lazuli_boots',
+    'mekanismtools:lapis_lazuli_sword',
+    'mekanismtools:lapis_lazuli_pickaxe',
+    'mekanismtools:lapis_lazuli_axe',
+    'mekanismtools:lapis_lazuli_shovel',
+    'mekanismtools:lapis_lazuli_hoe',
+    'mekanismtools:lapis_lazuli_paxel',
+    'mekanismtools:lapis_lazuli_shield',
     //'mekanismtools:steel_sword',
     //'mekanismtools:steel_pickaxe',
     //'mekanismtools:steel_axe',
