@@ -63,7 +63,6 @@ ServerEvents.recipes(event => {
     'aether:skyroot_smithing_table',
     'aether:skyroot_tripwire_hook',
     'aether:swet_lead',
-    'aether:swet_sticky_piston', // Redundant - vanilla Sticky Piston recipe has changed.
 
     // Botania
     //'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
