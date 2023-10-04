@@ -35,10 +35,38 @@ ServerEvents.recipes(event => {
     'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe.
     'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe.
 
+    // Ad Astra
+    'ad_astra:compressing/iron_plate_from_compressing_iron_ingot',
+    //'ad_astra:compressing/steel_plate_from_compressing_steel_ingot',
+    'ad_astra:hammering/iron_plate',
+    //'ad_astra:hammering/steel_plate',
+    'ad_astra:recipes/iron_rod',
+    'ad_astra:recipes/steel_block',
+    'ad_astra:recipes/steel_ingot',
+    'ad_astra:recipes/steel_nugget',
+    'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
+    'ad_astra:recipes/steel_ingot_from_nuggets',
+
+    // The Aether
+    'aether:skyroot_beehive', // EveryCompat includes a proper one.
+    'aether:skyroot_barrel',
+    'aether:skyroot_cartography_table',
+    'aether:skyroot_chest',
+    'aether:skyroot_crafting_table',
+    'aether:skyroot_fletching_table',
+    'aether:skyroot_jukebox',
+    'aether:skyroot_grindstone',
+    'aether:skyroot_iron_vanilla_shield',
+    'aether:skyroot_loom',
+    'aether:skyroot_noteblock',
+    'aether:skyroot_piston',
+    'aether:skyroot_smithing_table',
+    'aether:skyroot_tripwire_hook',
+    'aether:swet_lead',
+    //'aether:swet_sticky_piston', // Redundant - vanilla Sticky Piston recipe has changed.
+
     // Botania
     //'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
-
-    // Create
 
     // Darker Depths
     //'darkerdepths:rope', // Replaced with Supplementaries Rope
@@ -108,17 +136,17 @@ ServerEvents.recipes(event => {
     //'mekanismtools:steel/armor/chestplate',
     //'mekanismtools:steel/armor/leggings',
     //'mekanismtools:steel/armor/boots',
-    //'mekanismtools:lapis_lazuli/tools/sword',
-    //'mekanismtools:lapis_lazuli/tools/pickaxe',
-    //'mekanismtools:lapis_lazuli/tools/axe',
-    //'mekanismtools:lapis_lazuli/tools/shovel',
-    //'mekanismtools:lapis_lazuli/tools/hoe',
-    //'mekanismtools:lapis_lazuli/tools/paxel',
-    //'mekanismtools:lapis_lazuli/shield',
-    //'mekanismtools:lapis_lazuli/armor/helmet',
-    //'mekanismtools:lapis_lazuli/armor/chestplate', 
-    //'mekanismtools:lapis_lazuli/armor/leggings',
-    //'mekanismtools:lapis_lazuli/armor/boots',
+    'mekanismtools:lapis_lazuli/tools/sword',
+    'mekanismtools:lapis_lazuli/tools/pickaxe',
+    'mekanismtools:lapis_lazuli/tools/axe',
+    'mekanismtools:lapis_lazuli/tools/shovel',
+    'mekanismtools:lapis_lazuli/tools/hoe',
+    'mekanismtools:lapis_lazuli/tools/paxel',
+    'mekanismtools:lapis_lazuli/shield',
+    'mekanismtools:lapis_lazuli/armor/helmet',
+    'mekanismtools:lapis_lazuli/armor/chestplate', 
+    'mekanismtools:lapis_lazuli/armor/leggings',
+    'mekanismtools:lapis_lazuli/armor/boots',
 
     // MineColonies
     'minecolonies:chainmailhelmet', // Replaced with a different recipe.
