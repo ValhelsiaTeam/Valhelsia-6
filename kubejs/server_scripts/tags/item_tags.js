@@ -80,6 +80,10 @@ ServerEvents.tags('item', event => {
     'waystones:warp_dust',
   ]);
 
+  event.add('forge:flour/wheat', [
+    'pneumaticcraft:wheat_flour',
+  ]);
+
   // ----- Logs / Wood -----
   event.add('forge:stripped_logs', [
     'forbidden_arcanus:stripped_aurum_log',
