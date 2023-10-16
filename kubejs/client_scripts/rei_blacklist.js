@@ -33,7 +33,7 @@ REIEvents.hide('item', event => {
     'ad_astra:steel_block',
     'ad_astra:steel_ingot',
     'ad_astra:steel_nugget',
-    //'ad_astra:steel_plate',
+    'ad_astra:steel_plate',
 
     // Advanced Peripherals
     'advancedperipherals:rs_bridge',
@@ -184,15 +184,15 @@ REIEvents.hide('item', event => {
     'mekanismtools:lapis_lazuli_hoe',
     'mekanismtools:lapis_lazuli_paxel',
     'mekanismtools:lapis_lazuli_shield',
-    //'mekanismtools:steel_sword',
-    //'mekanismtools:steel_pickaxe',
-    //'mekanismtools:steel_axe',
-    //'mekanismtools:steel_shovel',
-    //'mekanismtools:steel_hoe',
-    //'mekanismtools:steel_helmet',
-    //'mekanismtools:steel_chestplate',
-    //'mekanismtools:steel_leggings',
-    //'mekanismtools:steel_boots',
+    'mekanismtools:steel_sword',
+    'mekanismtools:steel_pickaxe',
+    'mekanismtools:steel_axe',
+    'mekanismtools:steel_shovel',
+    'mekanismtools:steel_hoe',
+    'mekanismtools:steel_helmet',
+    'mekanismtools:steel_chestplate',
+    'mekanismtools:steel_leggings',
+    'mekanismtools:steel_boots',
 
     // Quark
     //'quark:carrot_crate',
