@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
   replaceInput('forbidden_arcanus:deorum_ingot', '#forge:ingots/deorum');
   replaceInput('forbidden_arcanus:obsidian_ingot', '#forge:ingots/obsidian');
   replaceInput('galosphere:silver_ingot', '#forge:ingots/silver');
-  //replaceInput('immersiveengineering:ingot_silver', '#forge:ingots/silver');
+  replaceInput('immersiveengineering:ingot_silver', '#forge:ingots/silver');
 
   // Plate Compatibility
   replaceInput('ad_astra:calorite_plate', '#forge:plates/calorite');
@@ -58,25 +58,29 @@ ServerEvents.recipes(event => {
 
   // Nugget Compatibility
   replaceInput('galosphere:silver_nugget', '#forge:nuggets/silver');
-  //replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
+  replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
 
   // Raw Material Compatibility
   replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
-  //replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
+  replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
 
   // Storage Block Compatibility
   replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
-  //replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
-  //replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
-  //replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
+  replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
+  replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
+  replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
   
   // Cheese Compatibility
   //replaceInput('ad_astra:cheese', '#valhelsia:cheese');
   //replaceInput('brewinandchewin:flaxen_cheese_wedge', '#valhelsia:cheese');
 
   // Electron Tube Compatibility
-  //replaceInput('create:electron_tube', '#valhelsia:electron_tubes');
-  //replaceInput('immersiveengineering:electron_tube', '#valhelsia:electron_tubes');
+  replaceInput('create:electron_tube', '#valhelsia:electron_tubes');
+  replaceInput('immersiveengineering:electron_tube', '#valhelsia:electron_tubes');
+
+  // Flour Compatibility
+  replaceInput('create:wheat_flour', '#forge:flour/wheat');
+  replaceInput('pneumaticcraft:wheat_flour', '#forge:flour/wheat');
 
   // Rope Unification
   replaceInput('farmersdelight:rope', '#valhelsia:ropes');
@@ -101,34 +105,34 @@ ServerEvents.recipes(event => {
   // Note: Priority for metals is Create > Mekanism > Immersive Engineering > Darker Depths
 
   // Nuggets
-  //replaceOutput('galosphere:silver_nugget', 'immersiveengineering:nugget_silver');
-  //replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
-  //replaceOutput('immersiveengineering:nugget_lead', 'mekanism:nugget_lead');
-  //replaceOutput('immersiveengineering:nugget_steel', 'mekanism:nugget_steel');
-  //replaceOutput('immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium');
+  replaceOutput('galosphere:silver_nugget', 'immersiveengineering:nugget_silver');
+  replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
+  replaceOutput('immersiveengineering:nugget_lead', 'mekanism:nugget_lead');
+  replaceOutput('immersiveengineering:nugget_steel', 'mekanism:nugget_steel');
+  replaceOutput('immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium');
 
   // Ingots
   //replaceOutput('darkerdepths:silver_ingot', 'immersiveengineering:ingot_silver');
-  //replaceOutput('galosphere:silver_ingot', 'immersiveengineering:ingot_silver');
-  //replaceOutput('immersiveengineering:ingot_lead', 'mekanism:ingot_lead');
-  //replaceOutput('immersiveengineering:ingot_steel', 'mekanism:ingot_steel');
-  //replaceOutput('immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium');
+  replaceOutput('galosphere:silver_ingot', 'immersiveengineering:ingot_silver');
+  replaceOutput('immersiveengineering:ingot_lead', 'mekanism:ingot_lead');
+  replaceOutput('immersiveengineering:ingot_steel', 'mekanism:ingot_steel');
+  replaceOutput('immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium');
 
   // Raw Ore
   //replaceOutput('darkerdepths:raw_silver', 'immersiveengineering:raw_silver');
-  //replaceOutput('galosphere:raw_silver', 'immersiveengineering:raw_silver');
-  //replaceOutput('immersiveengineering:raw_lead', 'mekanism:raw_lead');
-  //replaceOutput('immersiveengineering:raw_uranium', 'mekanism:raw_uranium');
+  replaceOutput('galosphere:raw_silver', 'immersiveengineering:raw_silver');
+  replaceOutput('immersiveengineering:raw_lead', 'mekanism:raw_lead');
+  replaceOutput('immersiveengineering:raw_uranium', 'mekanism:raw_uranium');
 
   // Storage Blocks
   //replaceOutput('darkerdepths:raw_silver_block', 'immersiveengineering:raw_block_silver');
   //replaceOutput('darkerdepths:silver_block', 'immersiveengineering:storage_silver');
-  //replaceOutput('galosphere:silver_block', 'immersiveengineering:block_silver');
-  //replaceOutput('immersiveengineering:storage_lead', 'mekanism:block_lead');
-  //replaceOutput('immersiveengineering:raw_block_lead', 'mekanism:block_raw_lead');
-  //replaceOutput('immersiveengineering:raw_block_uranium', 'mekanism:block_raw_uranium');
-  //replaceOutput('immersiveengineering:storage_steel', 'mekanism:block_steel');
-  //replaceOutput('immersiveengineering:storage_uranium', 'mekanism:block_uranium');
+  replaceOutput('galosphere:silver_block', 'immersiveengineering:block_silver');
+  replaceOutput('immersiveengineering:storage_lead', 'mekanism:block_lead');
+  replaceOutput('immersiveengineering:raw_block_lead', 'mekanism:block_raw_lead');
+  replaceOutput('immersiveengineering:raw_block_uranium', 'mekanism:block_raw_uranium');
+  replaceOutput('immersiveengineering:storage_steel', 'mekanism:block_steel');
+  replaceOutput('immersiveengineering:storage_uranium', 'mekanism:block_uranium');
   //replaceOutput('mekanism:block_charcoal', 'quark:charcoal_block');
 
   // Misc
