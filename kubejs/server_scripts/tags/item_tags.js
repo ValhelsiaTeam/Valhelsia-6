@@ -22,7 +22,7 @@ ServerEvents.tags('item', event => {
   // ----- Valhelsia Tags -----
   event.add('valhelsia:ropes', [
     'farmersdelight:rope',
-    //'immersiveengineering:wirecoil_structure_rope',
+    'immersiveengineering:wirecoil_structure_rope',
     'supplementaries:rope',
   ]);
 
@@ -35,6 +35,16 @@ ServerEvents.tags('item', event => {
     'biomesoplenty:rose_quartz_shard',
     //'cave_enhancements:rose_quartz',
     'create:rose_quartz',
+  ]);
+  
+  event.add('valhelsia:electron_tubes', [
+    'create:electron_tube',
+    'immersiveengineering:electron_tube',
+  ]);
+  
+  event.add('valhelsia:cheese', [
+    'ad_astra:cheese',
+    //'brewinandchewin:flaxen_cheese_wedge',
   ]);
 
   // ----- Ores -----
