@@ -152,6 +152,8 @@ REIEvents.hide('item', event => {
     'farmersdelight:rope',
 
     // Galosphere
+    'galosphere:silver_ore',
+    'galosphere:deepslate_silver_ore',
     'galosphere:raw_silver_block',
     'galosphere:raw_silver',
     'galosphere:silver_ingot',
