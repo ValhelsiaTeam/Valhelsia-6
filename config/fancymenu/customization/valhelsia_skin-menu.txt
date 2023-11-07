@@ -96,6 +96,7 @@ customization {
 customization {
   orientation = top-left
   loopbackgroundanimations = true
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:732c607f-ba91-4771-88d0-171675bff8df1699366205363] = 
   restartbackgroundanimations = true
   buttonaction = opengui;com.aetherteam.aether.client.gui.screen.perks.MoaSkinsScreen%btnaction_splitter_fm%
   x = 325
