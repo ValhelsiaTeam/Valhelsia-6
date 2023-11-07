@@ -6,7 +6,7 @@
 //
 
 /**
- * @file Recipe removals for Valhelsia 5.
+ * @file Recipe removals for Valhelsia 6.
  * 
  * If intending to replace the recipe with a new one (be it differing input or output), 
  * it is preferable to use replace instead of remove, if practical.
@@ -20,7 +20,7 @@
  * @see sawing.js
  * @see smelting.js
  * 
- * @copyright Valhelsia Inc 2022-2023
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
@@ -81,6 +81,19 @@ ServerEvents.recipes(event => {
     // Ecologics
     //'ecologics:surface_moss',
     //'ecologics:moss_block',
+
+    // Embers
+    'embers:lead_ingot_to_block',
+    'embers:lead_block_to_ingot',
+    'embers:lead_nugget_to_ingot',
+    'embers:lead_ingot_to_nugget',
+    'embers:lead_raw_block_to_raw',
+    'embers:lead_raw_to_raw_block',
+    'embers:silver_block_to_ingot',
+    'embers:silver_nugget_to_ingot',
+    'embers:silver_ingot_to_nugget',
+    'embers:silver_raw_block_to_raw',
+    'embers:silver_raw_to_raw_block',
 
     // Farmer's Delight
     //'farmersdelight:cake_from_milk_bottle', // Redundant: Same as Neapolitan's recipe.
