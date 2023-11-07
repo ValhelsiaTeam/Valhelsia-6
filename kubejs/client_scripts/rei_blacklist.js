@@ -129,6 +129,22 @@ REIEvents.hide('item', event => {
     'domum_ornamentum:fancy_door',
     'domum_ornamentum:panel',
 
+    // Embers
+    'embers:silver_nugget',
+    'embers:silver_ingot',
+    'embers:raw_silver',
+    'embers:silver_block',
+    'embers:raw_silver_block',
+    'embers:silver_ore',
+    'embers:deepslate_silver_ore',
+    'embers:lead_nugget',
+    'embers:lead_ingot',
+    'embers:raw_lead',
+    'embers:lead_block',
+    'embers:raw_lead_block',
+    'embers:lead_ore',
+    'embers:deepslate_lead_ore',
+
     // Every Compat
     'everycomp:all_woods',
 
@@ -166,6 +182,10 @@ REIEvents.hide('item', event => {
     //'mekanism:block_charcoal',
     'mekanism:creative_fluid_tank',
     'mekanism:creative_chemical_tank',
+    'mekanism:uranium_ore',
+    'mekanism:deepslate_uranium_ore',
+    'mekanism:block_raw_uranium',
+    'mekanism:raw_uranium',
 
     // Mekanism Additions
     'mekanismadditions:baby_creeper_spawn_egg',
