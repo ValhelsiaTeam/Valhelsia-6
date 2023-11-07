@@ -288,9 +288,9 @@ ServerEvents.recipes(event => {
   shaped2x2('farmersdelight:canvas', 'supplementaries:flax', 'canvas_from_flax');
 
   // Immersive Engineering
-  //shaped3x3('immersiveengineering:storage_silver', '#forge:ingots/silver', 'silver_block_from_silver_ingots');
-  //shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
-  //shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
+  shaped3x3('immersiveengineering:storage_silver', '#forge:ingots/silver', 'silver_block_from_silver_ingots');
+  shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
+  shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
 
   // Mekanism
   event.shaped('mekanismtools:steel_paxel', [
