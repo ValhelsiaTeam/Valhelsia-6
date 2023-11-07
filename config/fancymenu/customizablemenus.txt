@@ -3,6 +3,12 @@ type = customizablemenus
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+com.aetherteam.aether.client.gui.screen.perks.MoaSkinsScreen {
+}
+
 net.minecraft.client.gui.screens.PauseScreen {
 }
 

@@ -26,7 +26,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 20
+  y = 44
 }
 
 customization {
@@ -40,31 +40,9 @@ customization {
 customization {
   identifier = %id=398348%
   orientation = mid-centered
-  x = -126
+  x = -102
   action = movebutton
-  y = -28
-}
-
-customization {
-  identifier = %id=398348%
-  width = 20
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=398348%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=398348%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/custom-menu/textures/gui/catalogue_hover_button.png
-  backgroundnormal = kubejs/assets/custom-menu/textures/gui/catalogue_button.png
+  y = 20
 }
 
 customization {
@@ -74,10 +52,22 @@ customization {
 
 customization {
   identifier = %id=374282%
-  orientation = mid-centered
-  x = -126
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374282%
+  orientation = top-centered
+  x = -220
   action = movebutton
-  y = -52
+  y = 124
+}
+
+customization {
+  identifier = %id=374282%
+  width = 19
+  action = resizebutton
+  height = 20
 }
 
 customization {
