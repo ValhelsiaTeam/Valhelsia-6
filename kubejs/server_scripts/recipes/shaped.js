@@ -292,6 +292,18 @@ ServerEvents.recipes(event => {
   //shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
   //shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
 
+  // Mekanism
+  event.shaped('mekanismtools:steel_paxel', [
+    'ABC',
+    ' D ',
+    ' D '
+  ], {
+    A: 'immersiveengineering:pickaxe_steel',
+    B: 'immersiveengineering:axe_steel',
+    C: 'immersiveengineering:shovel_steel',
+    D: '#forge:rods/wooden'
+  }).id(`${ID_PREFIX}steel_paxel`);
+
   // Sophisticated Backpacks
   //event.shaped('sophisticatedbackpacks:backpack', [
   //  'ACA',
