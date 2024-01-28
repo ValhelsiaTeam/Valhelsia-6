@@ -204,15 +204,16 @@ ServerEvents.recipes(event => {
 
   // Ars Nouveau
   event.shaped('ars_nouveau:novice_spell_book', [
-    'ABC',
-    'DE ',
-    '   ',
+    'FBF',
+    'CAD',
+    'FEF',
   ], {
     A: 'minecraft:book',
-    B: 'aether:gravitite_shovel',
-    C: 'aether:gravitite_pickaxe',
-    D: 'aether:gravitite_axe',
-    E: 'aether:gravitite_sword',
+    B: 'minecraft:diamond_shovel',
+    C: 'minecraft:diamond_pickaxe',
+    D: 'minecraft:diamond_axe',
+    E: 'minecraft:diamond_sword',
+    F: 'ars_nouveau:source_gem_block',
   }).id(`${ID_PREFIX}novice_spell_book`);
 
   event.shaped('ars_nouveau:apprentice_spell_book', [
