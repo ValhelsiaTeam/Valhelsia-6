@@ -12,7 +12,7 @@
  * The majority of the recipe changes in this script are to convert recipe inputs to
  * use tags instead of specific items, or adjusting the output where we have a prefered mod to use.
  * 
- * @copyright Valhelsia Inc 2023
+ * @copyright Valhelsia Inc 2024
  */
 
 /**
@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
   replaceOutput('mekanism:block_raw_uranium', 'alexscaves:block_of_uranium');
   replaceOutput('immersiveengineering:storage_steel', 'mekanism:block_steel');
   replaceOutput('immersiveengineering:storage_uranium', 'mekanism:block_uranium');
-  //replaceOutput('mekanism:block_charcoal', 'quark:charcoal_block');
+  replaceOutput('mekanism:block_charcoal', 'quark:charcoal_block');
 
   // Misc
   replaceOutput('farmersdelight:rope', 'supplementaries:rope');
@@ -159,7 +159,6 @@ ServerEvents.recipes(event => {
   replaceInputID('waystones:warp_dust', 'minecraft:ender_pearl', '#forge:dusts/ender_pearl');
   replaceInputID('mekanism:ingot_uranium', 'alexscaves:uranium_shard', 'mekanism:nugget_uranium');
   replaceInputID('mekanism:processing/uranium/ingot/from_nuggets', 'alexscaves:uranium_shard', 'mekanism:nugget_uranium');
-  replaceOutputID('mekanism:processing/uranium/ingot/from_block', 'mekanism:ingot_uranium', 'alexscaves:uranium');
   replaceInputID('forbidden_arcanus:silver_dragon_scale', 'minecraft:iron_ingot', '#forge:ingots/silver'); // Silver Dragon Scales are now actually silver.
   replaceInputID('ars_nouveau:warp_scroll', 'minecraft:lapis_lazuli', '#forge:dusts/warp'); // Now even warpier!
 });
