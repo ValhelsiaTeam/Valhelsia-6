@@ -20,7 +20,7 @@
  * @see sawing.js
  * @see smelting.js
  * 
- * @copyright Valhelsia Inc 2023
+ * @copyright Valhelsia Inc 2024
  */
 
 /**
@@ -31,9 +31,9 @@ ServerEvents.recipes(event => {
   [
     // Ars Nouveau
     'ars_nouveau:archwood_to_chest', // Duplicate Recipe.
-    'ars_nouveau:novice_spell_book', // Replaced with a different recipe.
-    'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe.
-    'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe.
+    //'ars_nouveau:novice_spell_book', // Replaced with a different recipe.
+    //'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe.
+    //'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe.
 
     // Ad Astra
     'ad_astra:compressing/iron_plate_from_compressing_iron_ingot',
@@ -137,8 +137,9 @@ ServerEvents.recipes(event => {
     'immersiveengineering:crafting/raw_uranium_to_raw_block_uranium',
 
     // Mekanism
-    //'mekanism:charcoal',
-    //'mekanism:storage_blocks/charcoal',
+    'mekanism:charcoal',
+    'mekanism:storage_blocks/charcoal',
+    'mekanism:processing/uranium/ingot/from_block',
     'mekanismtools:steel/tools/sword',
     'mekanismtools:steel/tools/pickaxe',
     'mekanismtools:steel/tools/axe',
@@ -169,7 +170,7 @@ ServerEvents.recipes(event => {
     // Minecraft
     'minecraft:cake', // Duplicate Recipe.
     'minecraft:ladder',
-    //'minecraft:furnace', // Quark provides an alternative.
+    'minecraft:furnace', // Quark provides an alternative.
 
     // PneumaticCraft: Repressurized
     'pneumaticcraft:copper_nugget', // Duplicate Recipe.
@@ -177,15 +178,15 @@ ServerEvents.recipes(event => {
     // Quark
     //'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
     //'quark:building/crafting/oak_ladder', // Duplicate recipe.
-    //'quark:building/crafting/compressed/carrot_crate', // Duplicate recipe.
-    //'quark:building/crafting/compressed/potato_crate', // Duplicate recipe.
-    //'quark:building/crafting/compressed/beetroot_crate', // Duplicate recipe.
+    'quark:building/crafting/compressed/carrot_crate', // Duplicate recipe.
+    'quark:building/crafting/compressed/potato_crate', // Duplicate recipe.
+    'quark:building/crafting/compressed/beetroot_crate', // Duplicate recipe.
 
     // Quark Oddities
-    //'quark:oddities/crafting/backpack', // Removed entirely.
+    'quark:oddities/crafting/backpack', // Removed entirely.
 
     // Sophisticated Backpacks
-    //'sophisticatedbackpacks:backpack', // Replaced with a different recipe.
+    'sophisticatedbackpacks:backpack', // Replaced with a different recipe.
 
     // Waystones
     'waystones:warp_scroll', // Replaced with a different recipe.
