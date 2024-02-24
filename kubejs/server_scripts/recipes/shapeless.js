@@ -7,8 +7,10 @@
 
 /**
  * @file Shapeless recipe additions for Valhelsia 6.
- * @copyright Valhelsia Inc 2023
+ * 
  * @see shaped.js
+ * 
+ * @copyright Valhelsia Inc 2024
  */
 
 /**
@@ -19,12 +21,10 @@ ServerEvents.recipes(event => {
 
   // Minecraft
   event.shapeless('minecraft:yellow_dye', 'forbidden_arcanus:yellow_orchid').id(`${ID_PREFIX}yellow_dye_from_yellow_orchid`);
+  event.shapeless('9x minecraft:copper_ingot', 'minecraft:copper_block').id(`${ID_PREFIX}copper_ingot`);
 
   // Biomes 'o' Plenty
   event.shapeless('2x biomesoplenty:orange_sand', ['minecraft:sand', 'minecraft:red_sand']).id(`${ID_PREFIX}orange_sand`);
-
-  // Minecraft
-  event.shapeless('9x minecraft:copper_ingot', 'minecraft:copper_block').id(`${ID_PREFIX}copper_ingot`);
 
   // Create
   //event.shapeless('create:brass_sheet', ['#forge:ingots/brass', 'immersiveengineering:hammer']).id(`${ID_PREFIX}brass_sheet_hammering`);
@@ -48,6 +48,8 @@ ServerEvents.recipes(event => {
     '#forge:dusts/wood'
   ]).id(`${ID_PREFIX}compost_from_sawdust`);
 
+  // Mekanism
+  event.shapeless('9x mekanism:ingot_uranium', 'mekanism:block_uranium').id(`${ID_PREFIX}uranium_ingots_from_block`);
 
   // Quark
   //event.shapeless('2x quark:myalite', ['minecraft:cobblestone', 'minecraft:amethyst_block', 'quark:myalite_crystal']).id(`${ID_PREFIX}myalite`);
