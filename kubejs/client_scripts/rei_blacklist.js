@@ -181,7 +181,7 @@ REIEvents.hide('item', event => {
     'immersiveengineering:nugget_copper',
 
     // Mekanism
-    //'mekanism:block_charcoal',
+    'mekanism:block_charcoal',
     'mekanism:creative_fluid_tank',
     'mekanism:creative_chemical_tank',
     'mekanism:uranium_ore',
