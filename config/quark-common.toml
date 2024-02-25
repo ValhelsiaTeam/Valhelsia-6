@@ -1519,7 +1519,7 @@
 	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = true
@@ -1568,8 +1568,8 @@
 			B = [0.0, 0.0, 1.22]
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Attribute Tooltips" = false
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1774,10 +1774,10 @@
 		"Reroll Even If Not Out Of Stock" = false
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Tiny Potato" = true
 	"Totem Of Holding" = true
