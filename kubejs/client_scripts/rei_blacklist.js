@@ -217,12 +217,12 @@ REIEvents.hide('item', event => {
     'mekanismtools:steel_boots',
 
     // Quark
-    //'quark:carrot_crate',
-    //'quark:potato_crate',
-    //'quark:beetroot_crate',
+    'quark:carrot_crate',
+    'quark:potato_crate',
+    'quark:beetroot_crate',
 
     // Quark Oddities
-    //'quark:backpack',
+    'quark:backpack',
 
     // Structure Gel API
     'structure_gel:red_gel',
