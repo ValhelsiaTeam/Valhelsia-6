@@ -20,6 +20,22 @@
  * Block Tag Event Handler
  */
 ServerEvents.tags('block', event => {
+  // Create
+  event.add('create:fan_processing_catalysts/haunting', [
+    'valhelsia_structures:soul_brazier',
+  ]);
+
+  event.add('create:fan_processing_catalysts/smoking', [
+    'valhelsia_structures:brazier',
+  ]);
+
+  // Mekanism
+  event.add('mekanism:cardboard_blacklist', [
+    'waystones:waystone',
+    'waystones:mossy_waystone',
+    'waystones:sandy_waystone'
+  ]);
+
   // Missing Quark Revertable Chests
   event.add('quark:revertable_chests', [
     'ars_nouveau:archwood_chest'
