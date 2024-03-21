@@ -31,20 +31,153 @@ ServerEvents.tags('item', event => {
     //'darkerdepths:ash',
   ]);
 
-  event.add('valhelsia:rose_quartz', [
-    'biomesoplenty:rose_quartz_shard',
-    //'cave_enhancements:rose_quartz',
-    'create:rose_quartz',
+  event.add('valhelsia:bowls', [
+    'minecraft:bowl',
+    'ecologics:coconut_husk',
   ]);
   
+  event.add('valhelsia:capacitors', [
+    'createaddition:capacitor',
+    'pneumaticcraft:capacitor',
+  ]);
+
+  event.add('valhelsia:cheese', [
+    'ad_astra:cheese',
+    //'brewinandchewin:flaxen_cheese_wedge',
+  ]);
+
   event.add('valhelsia:electron_tubes', [
     'create:electron_tube',
     'immersiveengineering:electron_tube',
   ]);
   
-  event.add('valhelsia:cheese', [
-    'ad_astra:cheese',
-    //'brewinandchewin:flaxen_cheese_wedge',
+  event.add('valhelsia:furnaces', [
+    'minecraft:furnace',
+    'nethersdelight:furnace',
+    'quark:deepslate_furnace',
+    'quark:blackstone_furnace',
+  ]);
+
+  event.add('valhelsia:nuts', [
+    'blue_skies:solnut',
+    'ecologics:walnut',
+    //'windswept:chestnuts',
+  ]);
+  
+  event.add('valhelsia:raw_proteins', [
+    '#forge:eggs',
+    '#forge:raw_fishes',
+    'minecraft:beef',
+    'minecraft:brown_mushroom',
+    'minecraft:chicken',
+    'minecraft:mutton',
+    'minecraft:porkchop',
+    'minecraft:rabbit',
+    'minecraft:red_mushroom',
+    // 'abnormals_delight:duck_fillet',
+    // 'abnormals_delight:venison_shanks',
+    // 'alexsdelight:bison_mince',
+    // 'alexsdelight:kangaroo_shank',
+    // 'alexsdelight:loose_moose_rib',
+    // 'alexsdelight:raw_bison',
+    // 'alexsdelight:raw_bunfungus',
+    // 'alexsdelight:raw_bunfungus_drumstick',
+    // 'alexsdelight:raw_catfish_slice',
+    'alexsmobs:blobfish',
+    'alexsmobs:cosmic_cod',
+    'alexsmobs:flying_fish',
+    'alexsmobs:kangaroo_meat',
+    'alexsmobs:lobster_tail',
+    'alexsmobs:moose_ribs',
+    'alexsmobs:raw_catfish',
+    'aquamirae:spinefish',
+    // 'autumnity:turkey',
+    // 'autumnity:turkey_piece',
+    'blue_skies:carabeef',
+    'blue_skies:monitor_tail',
+    'blue_skies:venison',
+    'ecologics:crab_claw',
+    'enlightened_end:raw_stalker',
+    // 'environmental:duck',
+    // 'environmental:venison',
+    'farmersdelight:bacon',
+    'farmersdelight:chicken_cuts',
+    'farmersdelight:ham',
+    'farmersdelight:minced_beef',
+    'farmersdelight:mutton_chops',
+    'forbidden_arcanus:tentacle',
+    // 'neapolitan:adzuki_beans',
+    'quark:crab_leg',
+    'twilightforest:raw_meef',
+    // 'twilightforest:raw_venison',
+    // 'windswept:goat',
+    // 'windswept:goat_shanks',
+  ]);
+
+  event.add('valhelsia:cooked_proteins', [
+    '#forge:cooked_fishes',
+    'minecraft:cooked_beef',
+    'minecraft:cooked_chicken',
+    'minecraft:cooked_mutton',
+    'minecraft:cooked_porkchop',
+    'minecraft:cooked_rabbit',
+    //'abnormals_delight:cooked_duck_fillet',
+    //'abnormals_delight:cooked_venison_shanks',
+    // 'alexsdelight:bison_patty',
+    // 'alexsdelight:cooked_bison',
+    // 'alexsdelight:cooked_bunfungus',
+    // 'alexsdelight:cooked_bunfungus_drumstick',
+    // 'alexsdelight:cooked_catfish_slice',
+    // 'alexsdelight:cooked_centipede_leg',
+    // 'alexsdelight:cooked_kangaroo_shank',
+    // 'alexsdelight:cooked_loose_moose_rib',
+    'alexsmobs:boiled_emu_egg',
+    'alexsmobs:cooked_catfish',
+    'alexsmobs:cooked_kangaroo_meat',
+    'alexsmobs:cooked_lobster_tail',
+    'alexsmobs:cooked_moose_ribs',
+    'aquamirae:cooked_spinefish',
+    //'autumnity:cooked_turkey',
+    //'autumnity:cooked_turkey_piece',
+    'blue_skies:cooked_carabeef',
+    'blue_skies:cooked_monitor_tail',
+    'blue_skies:cooked_venison',
+    'ecologics:crab_meat',
+    'enlightened_end:cooked_stalker',
+    //'environmental:cooked_duck',
+    //'environmental:cooked_venison',
+    'farmersdelight:beef_patty',
+    'farmersdelight:cooked_bacon',
+    'farmersdelight:cooked_chicken_cuts',
+    'farmersdelight:cooked_mutton_chops',
+    'farmersdelight:fried_egg',
+    'farmersdelight:smoked_ham', // or steamed. ;)
+    'forbidden_arcanus:cooked_tentacle',
+    //'incubation:fried_egg',
+    //'neapolitan:roasted_adzuki_beans',
+    'quark:cooked_crab_leg',
+    'twilightforest:cooked_meef',
+    'twilightforest:cooked_venison',
+    //'windswept:cooked_goat',
+    //'windswept:cooked_goat_shanks',
+  ]);
+
+  event.add('valhelsia:proteins', [
+    '#valhelsia:raw_proteins',
+    '#valhelsia:cooked_proteins',
+    '#minecraft:fishes', // Because some fish aren't tagged with the Forge tags for fish.
+  ]);
+
+  event.add('valhelsia:ropes', [
+    'farmersdelight:rope',
+    'immersiveengineering:wirecoil_structure_rope',
+    'supplementaries:rope',
+  ]);
+
+  event.add('valhelsia:rose_quartz', [
+    'biomesoplenty:rose_quartz_shard',
+    //'cave_enhancements:rose_quartz',
+    'create:rose_quartz',
   ]);
 
   // ----- Ores -----
@@ -78,12 +211,12 @@ ServerEvents.tags('item', event => {
 
   // ----- Dusts -----
   event.add('forge:dusts', [
-    //'botania:pixie_dust',
+    'botania:pixie_dust',
     'waystones:warp_dust',
   ]);
 
   event.add('forge:dusts/pixie', [
-    //'botania:pixie_dust',
+    'botania:pixie_dust',
   ]);
 
   event.add('forge:dusts/warp', [
@@ -113,11 +246,11 @@ ServerEvents.tags('item', event => {
    
   // ----- Sandstone -----
   event.add('forge:sandstone/colorless', [
-    //'quark:sandstone_bricks',
+    'quark:sandstone_bricks',
   ]);
 
   event.add('forge:sandstone/red', [
-    //'quark:red_sandstone_bricks',
+    'quark:red_sandstone_bricks',
   ]);
 
   event.add('forge:sandstone/arid', [
@@ -158,11 +291,11 @@ ServerEvents.tags('item', event => {
   ]);
 
   event.add('forge:sandstone/soul', [
-    //'quark:soul_sandstone',
-    //'quark:soul_sandstone_bricks',
-    //'quark:smooth_soul_sandstone',
-    //'quark:cut_soul_sandstone',
-    //'quark:chiseled_soul_sandstone',
+    'quark:soul_sandstone',
+    'quark:soul_sandstone_bricks',
+    'quark:smooth_soul_sandstone',
+    'quark:cut_soul_sandstone',
+    'quark:chiseled_soul_sandstone',
   ]);
 
   event.add('forge:sandstone/soulless', [
