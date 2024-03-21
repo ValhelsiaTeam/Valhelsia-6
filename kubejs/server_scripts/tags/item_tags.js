@@ -59,7 +59,7 @@ ServerEvents.tags('item', event => {
   ]);
 
   event.add('valhelsia:nuts', [
-    'blue_skies:solnut',
+    // 'blue_skies:solnut',
     'ecologics:walnut',
     //'windswept:chestnuts',
   ]);
@@ -93,9 +93,9 @@ ServerEvents.tags('item', event => {
     'aquamirae:spinefish',
     // 'autumnity:turkey',
     // 'autumnity:turkey_piece',
-    'blue_skies:carabeef',
-    'blue_skies:monitor_tail',
-    'blue_skies:venison',
+    // 'blue_skies:carabeef',
+    // 'blue_skies:monitor_tail',
+    // 'blue_skies:venison',
     'ecologics:crab_claw',
     'enlightened_end:raw_stalker',
     // 'environmental:duck',
@@ -139,9 +139,9 @@ ServerEvents.tags('item', event => {
     'aquamirae:cooked_spinefish',
     //'autumnity:cooked_turkey',
     //'autumnity:cooked_turkey_piece',
-    'blue_skies:cooked_carabeef',
-    'blue_skies:cooked_monitor_tail',
-    'blue_skies:cooked_venison',
+    // 'blue_skies:cooked_carabeef',
+    // 'blue_skies:cooked_monitor_tail',
+    // 'blue_skies:cooked_venison',
     'ecologics:crab_meat',
     'enlightened_end:cooked_stalker',
     //'environmental:cooked_duck',
