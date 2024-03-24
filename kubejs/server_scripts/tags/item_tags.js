@@ -53,7 +53,7 @@ ServerEvents.tags('item', event => {
   
   event.add('valhelsia:furnaces', [
     'minecraft:furnace',
-    'nethersdelight:furnace',
+    'nethersdelight:blackstone_furnace',
     'quark:deepslate_furnace',
     'quark:blackstone_furnace',
   ]);

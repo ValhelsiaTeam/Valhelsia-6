@@ -178,9 +178,11 @@ ServerEvents.recipes(event => {
     // Quark
     //'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
     //'quark:building/crafting/oak_ladder', // Duplicate recipe.
-    'quark:building/crafting/compressed/carrot_crate', // Duplicate recipe.
-    'quark:building/crafting/compressed/potato_crate', // Duplicate recipe.
-    'quark:building/crafting/compressed/beetroot_crate', // Duplicate recipe.
+    'quark:building/crafting/compressed/carrot_crate', // Replaced with Farmer's Delight version.
+    'quark:building/crafting/compressed/potato_crate', // Replaced with Farmer's Delight version.
+    'quark:building/crafting/compressed/beetroot_crate', // Replaced with Farmer's Delight version.
+    'quark:building/crafting/furnaces/blackstone_blast_furnace', // Now using modified vanilla recipe.
+    'quark:building/crafting/furnaces/deepslate_blast_furnace', // Now using modified vanilla recipe.
 
     // Quark Oddities
     'quark:oddities/crafting/backpack', // Removed entirely.

@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
   replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
   
   // Cheese Compatibility
-  //replaceInput('ad_astra:cheese', '#valhelsia:cheese');
+  replaceInput('ad_astra:cheese', '#valhelsia:cheese');
   //replaceInput('brewinandchewin:flaxen_cheese_wedge', '#valhelsia:cheese');
 
   // Electron Tube Compatibility
@@ -99,6 +99,8 @@ ServerEvents.recipes(event => {
   //], 'minecraft:stick', '#forge:rods/wooden');
 
   replaceInputID('galosphere:silver_panel', 'galosphere:silver_block', '#forge:storage_blocks/silver');
+
+  replaceInputID('minecraft:blast_furnace', 'minecraft:furnace', '#valhelsia:furnaces');
   
   // ----- Output Unification -----
 

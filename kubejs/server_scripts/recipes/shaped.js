@@ -304,6 +304,8 @@ ServerEvents.recipes(event => {
     D: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}steel_paxel`);
 
+  shaped3x3('quark:bonded_ravager_hide', 'quark:ravager_hide', `${ID_PREFIX}bonded_ravager_hide_from_ravager_hide`);
+
   // Sophisticated Backpacks
   event.shaped('sophisticatedbackpacks:backpack', [
     'ACA',

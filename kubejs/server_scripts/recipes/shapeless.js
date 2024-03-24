@@ -54,5 +54,6 @@ ServerEvents.recipes(event => {
   // Quark
   event.shapeless('2x quark:myalite', ['minecraft:cobblestone', 'minecraft:amethyst_block', 'quark:myalite_crystal']).id(`${ID_PREFIX}myalite`);
   event.shapeless('quark:dusky_myalite', ['ars_nouveau:sourcestone', 'quark:myalite_crystal']).id(`${ID_PREFIX}dusky_myalite`);
+  event.shapeless('9x quark:ravager_hide', ['quark:bonded_ravager_hide']).id(`${ID_PREFIX}ravager_hide_from_bonded_ravager_hide`);
 
 });
