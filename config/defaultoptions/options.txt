@@ -7,7 +7,7 @@ entityDistanceScaling:1.0
 guiScale:3
 maxFps:120
 mipmapLevels:0
-resourcePacks:["builtin/towntalk","vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Valhelsia UI.zip","file/Valhelsia Paintings.zip","file/xali\u0027s Enchanted Books v0.12.0.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip","Valhelsia Assets.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip"]
+resourcePacks:["builtin/towntalk","vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Valhelsia Paintings.zip","file/xali\u0027s Enchanted Books v0.12.0.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip","Valhelsia Assets.zip","file/Valhelsia UI.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip"]
 incompatibleResourcePacks:["builtin/towntalk","file/Valhelsia Paintings.zip","file/xali\u0027s Enchanted Books v0.12.0.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip"]
 soundCategory_master:0.5
 soundCategory_music:0.25
