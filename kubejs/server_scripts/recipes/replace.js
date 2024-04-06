@@ -64,6 +64,10 @@ ServerEvents.recipes(event => {
   replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
   replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
 
+  // Dust Compatibility
+  replaceInput('create:powdered_obsidian', '#forge:dusts/obsidian');
+  replaceInput('mekanism:dust_obsidian', '#forge:dusts/obsidian');
+
   // Storage Block Compatibility
   replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
   replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
