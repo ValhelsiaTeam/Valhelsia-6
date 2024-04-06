@@ -202,45 +202,6 @@ ServerEvents.recipes(event => {
     B: '#minecraft:planks'
   }).id(`${ID_PREFIX}ladder`);
 
-  // Ars Nouveau
-  //event.shaped('ars_nouveau:novice_spell_book', [
-  //  'ABC',
-  //  'DE ',
-  //  '   ',
-  //], {
-  //  A: 'minecraft:book',
-  //  B: 'aether:gravitite_shovel',
-  //  C: 'aether:gravitite_pickaxe',
-  //  D: 'aether:gravitite_axe',
-  //  E: 'aether:gravitite_sword',
-  //}).id(`${ID_PREFIX}novice_spell_book`);
-
-  //event.shaped('ars_nouveau:apprentice_spell_book', [
-  //  'ABC',
-  //  'CCD',
-  //  'DEE',
-  //], {
-  //  A: 'ars_nouveau:novice_spell_book',
-  //  B: 'forbidden_arcanus:obsidian_skull',
-  //  C: 'forbidden_arcanus:stellarite_piece',
-  //  D: 'create:polished_rose_quartz',
-  //  E: 'minecraft:blaze_rod',
-  //}).id(`${ID_PREFIX}apprentice_spell_book`);
-
-  //event.shaped('ars_nouveau:archmage_spell_book', [
-  //  'ABC',
-  //  'DDE',
-  //  'FFG',
-  //], {
-  //  A: 'ars_nouveau:apprentice_spell_book',
-  //  B: 'forbidden_arcanus:dark_nether_star',
-  //  C: 'ars_nouveau:wilden_tribute',
-  //  D: 'deeperdarker:reinforced_echo_shard',
-  //  E: 'alexsmobs:void_worm_eye',
-  //  F: 'forbidden_arcanus:dragon_scale',
-  //  G: 'minecraft:totem_of_undying',
-  //}).id(`${ID_PREFIX}archmage_spell_book`);
-
   // Darker Depths
   //shaped2x2('darkerdepths:ash_block', '#valhelsia:ash', 'ash_block');
 
@@ -305,18 +266,6 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}steel_paxel`);
 
   shaped3x3('quark:bonded_ravager_hide', 'quark:ravager_hide', `${ID_PREFIX}bonded_ravager_hide_from_ravager_hide`);
-
-  // Sophisticated Backpacks
-  event.shaped('sophisticatedbackpacks:backpack', [
-    'ACA',
-    'BDB',
-    'BBB'
-  ], {
-    A: '#valhelsia:ropes',
-    B: '#forge:leather',
-    C: 'quark:ravager_hide',
-    D: '#forge:chests/wooden'
-  }).id(`${ID_PREFIX}backpack`);
 
   // Supplementaries
   event.shaped('supplementaries:quiver', [

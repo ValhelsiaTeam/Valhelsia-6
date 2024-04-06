@@ -184,12 +184,6 @@ ServerEvents.recipes(event => {
     'quark:building/crafting/furnaces/blackstone_blast_furnace', // Now using modified vanilla recipe.
     'quark:building/crafting/furnaces/deepslate_blast_furnace', // Now using modified vanilla recipe.
 
-    // Quark Oddities
-    'quark:oddities/crafting/backpack', // Removed entirely.
-
-    // Sophisticated Backpacks
-    'sophisticatedbackpacks:backpack', // Replaced with a different recipe.
-
     // Waystones
     'waystones:warp_scroll', // Replaced with a different recipe.
     'waystones:warp_stone', // Replaced with a different recipe.
