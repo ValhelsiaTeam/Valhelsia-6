@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     'aether:swet_lead',
 
     // Botania
-    //'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
+    'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
 
     // Darker Depths
     //'darkerdepths:rope', // Replaced with Supplementaries Rope
