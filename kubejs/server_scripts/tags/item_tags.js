@@ -180,6 +180,19 @@ ServerEvents.tags('item', event => {
     'create:rose_quartz',
   ]);
 
+  event.add('forge:bones/wither', [
+    'nourished_nether:wither_bone',
+  ]);
+
+  event.add('forge:bones/sculk', [
+    'deeperdarker:sculk_bone',
+  ]);
+
+  event.add('forge:bones/fish', [
+    'alexsmobs:fish_bones',
+    'aquaculture:fish_bones',
+  ]);
+
   // ----- Ores -----
   event.add('forge:ores', [
     //'darkerdepths:aridrock_silver_ore',

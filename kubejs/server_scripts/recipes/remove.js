@@ -64,6 +64,9 @@ ServerEvents.recipes(event => {
     'aether:skyroot_tripwire_hook',
     'aether:swet_lead',
 
+    // Alex's Mobs
+    'alexsmobs:bonemeal_from_fish_bones', // Aquaculture recipe now works with any fish bones.
+
     // Botania
     'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
 

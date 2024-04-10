@@ -73,6 +73,10 @@ ServerEvents.recipes(event => {
   replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
   replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
   replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
+
+  // Fish Bones Compatibility
+  replaceInput('alexsmobs:fish_bones', '#forge:bones/fish');
+  replaceInput('aquaculture:fish_bones', '#forge:bones/fish');
   
   // Cheese Compatibility
   replaceInput('ad_astra:cheese', '#valhelsia:cheese');
