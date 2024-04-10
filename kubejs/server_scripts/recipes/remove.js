@@ -31,9 +31,6 @@ ServerEvents.recipes(event => {
   [
     // Ars Nouveau
     'ars_nouveau:archwood_to_chest', // Duplicate Recipe.
-    //'ars_nouveau:novice_spell_book', // Replaced with a different recipe.
-    //'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe.
-    //'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe.
 
     // Ad Astra
     'ad_astra:compressing/iron_plate_from_compressing_iron_ingot',
