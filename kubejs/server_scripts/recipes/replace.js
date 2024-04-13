@@ -99,6 +99,9 @@ ServerEvents.recipes(event => {
   //replaceInput('cave_enhancements:rose_quartz', '#valhelsia:rose_quartz');
   replaceInput('create:rose_quartz', '#valhelsia:rose_quartz');
 
+  // Ender Pearl Compatibility (for Enderman Overhaul pearls)
+  replaceInput('minecraft:ender_pearl', '#forge:ender_pearls');
+
   // Stick / Rod Compatibility
   event.replaceInput({output:'#minecraft:arrows'}, 'minecraft:stick', '#forge:rods/wooden');
   //replaceInputID([

@@ -98,6 +98,9 @@ ServerEvents.recipes(event => {
     // Farmer's Delight
     //'farmersdelight:cake_from_milk_bottle', // Redundant: Same as Neapolitan's recipe.
 
+    // Forbidden and Arcanus
+    'forbidden_arcanus:ender_pearl_fragment', // Re-added later.
+
     // Galosphere
     'galosphere:raw_silver',
     'galosphere:raw_silver_block',
