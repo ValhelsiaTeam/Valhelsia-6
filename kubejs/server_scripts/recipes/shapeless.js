@@ -51,6 +51,10 @@ ServerEvents.recipes(event => {
   // Mekanism
   event.shapeless('9x mekanism:ingot_uranium', 'mekanism:block_uranium').id(`${ID_PREFIX}uranium_ingots_from_block`);
 
+  // Phantasmic (Nourished Nether)
+  event.shapeless('9x nourished_nether:ectoplasm', 'nourished_nether:ectoplasm_block').id(`${ID_PREFIX}ectoplasm_from_block`);
+  event.shapeless('9x nourished_nether:wither_bone', 'nourished_nether:wither_bone_block').id(`${ID_PREFIX}wither_bone_from_block`);
+
   // Quark
   event.shapeless('2x quark:myalite', ['minecraft:cobblestone', 'minecraft:amethyst_block', 'quark:myalite_crystal']).id(`${ID_PREFIX}myalite`);
   event.shapeless('quark:dusky_myalite', ['ars_nouveau:sourcestone', 'quark:myalite_crystal']).id(`${ID_PREFIX}dusky_myalite`);

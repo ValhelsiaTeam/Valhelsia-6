@@ -265,6 +265,10 @@ ServerEvents.recipes(event => {
     D: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}steel_paxel`);
 
+  // Phantasmic (Nourished Nether)
+  shaped3x3('nourished_nether:wither_bone_block', 'nourished_nether:wither_bone', `${ID_PREFIX}wither_bone_block_from_wither_bone`);
+
+  // Quark
   shaped3x3('quark:bonded_ravager_hide', 'quark:ravager_hide', `${ID_PREFIX}bonded_ravager_hide_from_ravager_hide`);
 
   // Supplementaries
