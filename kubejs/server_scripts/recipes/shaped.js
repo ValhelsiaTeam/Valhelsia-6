@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}ladder`);
 
   // Darker Depths
-  //shaped2x2('darkerdepths:ash_block', '#valhelsia:ash', 'ash_block');
+  //shaped2x2('darkerdepths:ash_block', '#forge:dusts/ash', 'ash_block');
 
   //vslab('darkerdepths:petrified_vertical_slab', 'darkerdepths:petrified_slab', 'darkerdepths/petrified_vertical_slab');
 

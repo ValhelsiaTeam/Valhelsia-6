@@ -26,11 +26,6 @@ ServerEvents.tags('item', event => {
     'supplementaries:rope',
   ]);
 
-  event.add('valhelsia:ash', [
-    'supplementaries:ash',
-    //'darkerdepths:ash',
-  ]);
-
   event.add('valhelsia:bowls', [
     'minecraft:bowl',
     'ecologics:coconut_husk',
