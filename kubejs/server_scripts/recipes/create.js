@@ -21,18 +21,18 @@ ServerEvents.recipes(event => {
   // event.recipes.create.filling('irons_spellbooks:blood_vial', [Fluid.of('biomesoplenty:blood 250'), 'minecraft:glass_bottle']).id(`${ID_PREFIX}filling/blood_vial`);
 
   // Mechanical Crafting
-  // event.recipes.create.mechanical_crafting('valhelsia_structures:dungeon_door', [
-  //   'CCCC',
-  //   'HWWH',
-  //   'CWWC',
-  //   'HSSH',
-  //   'CCCC'
-  // ], {
-  //   C: '#forge:ingots/cast_iron',
-  //   W: 'minecraft:dark_oak_planks',
-  //   H: 'create:shaft',
-  //   S: '#forge:plates/cast_iron',
-  // }).id(`${ID_PREFIX}mechanical_crafting/dungeon_door`);
+  event.recipes.create.mechanical_crafting('valhelsia_structures:dungeon_door', [
+    'CCCC',
+    'HWWH',
+    'CWWC',
+    'HSSH',
+    'CCCC'
+  ], {
+    C: '#forge:ingots/steel',
+    W: 'minecraft:dark_oak_planks',
+    H: 'create:shaft',
+    S: '#forge:plates/steel',
+  }).id(`${ID_PREFIX}mechanical_crafting/dungeon_door`);
 
   // Mixing
   event.recipes.create.mixing([Fluid.of('minecraft:milk 250')], [Fluid.of('minecraft:water 250'), '#valhelsia:nuts']).heated().id(`${ID_PREFIX}mixing/milk_from_nuts`);
