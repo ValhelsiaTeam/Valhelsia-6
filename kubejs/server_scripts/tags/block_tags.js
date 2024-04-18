@@ -40,4 +40,13 @@ ServerEvents.tags('block', event => {
   event.add('quark:revertable_chests', [
     'ars_nouveau:archwood_chest'
   ]);
+
+  event.add('forge:ores', [
+    'alexscaves:radrock_uranium_ore',
+  ]);
+
+  event.add('forge:ores/uranium', [
+    'alexscaves:radrock_uranium_ore',
+  ]);
+  
 });

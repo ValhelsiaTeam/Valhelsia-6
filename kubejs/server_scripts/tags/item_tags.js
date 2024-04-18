@@ -86,8 +86,8 @@ ServerEvents.tags('item', event => {
     'alexsmobs:moose_ribs',
     'alexsmobs:raw_catfish',
     'aquamirae:spinefish',
-    // 'autumnity:turkey',
-    // 'autumnity:turkey_piece',
+    'autumnity:turkey',
+    'autumnity:turkey_piece',
     // 'blue_skies:carabeef',
     // 'blue_skies:monitor_tail',
     // 'blue_skies:venison',
@@ -132,8 +132,8 @@ ServerEvents.tags('item', event => {
     'alexsmobs:cooked_lobster_tail',
     'alexsmobs:cooked_moose_ribs',
     'aquamirae:cooked_spinefish',
-    //'autumnity:cooked_turkey',
-    //'autumnity:cooked_turkey_piece',
+    'autumnity:cooked_turkey',
+    'autumnity:cooked_turkey_piece',
     // 'blue_skies:cooked_carabeef',
     // 'blue_skies:cooked_monitor_tail',
     // 'blue_skies:cooked_venison',
@@ -148,7 +148,7 @@ ServerEvents.tags('item', event => {
     'farmersdelight:fried_egg',
     'farmersdelight:smoked_ham', // or steamed. ;)
     'forbidden_arcanus:cooked_tentacle',
-    //'incubation:fried_egg',
+    'incubation:fried_egg',
     //'neapolitan:roasted_adzuki_beans',
     'quark:cooked_crab_leg',
     'twilightforest:cooked_meef',
@@ -192,6 +192,11 @@ ServerEvents.tags('item', event => {
   event.add('forge:ores', [
     //'darkerdepths:aridrock_silver_ore',
     //'darkerdepths:limestone_silver_ore',
+    'alexscaves:radrock_uranium_ore',
+  ]);
+  
+  event.add('forge:ores/uranium', [
+    'alexscaves:radrock_uranium_ore',
   ]);
 
   event.add('forge:ores/silver', [
