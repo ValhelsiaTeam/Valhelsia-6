@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
   
     // Conversion between stone of the same type.
     scConvert(['alexscaves:limestone', 'create:limestone', 'quark:limestone']);
-    scConvert(['darkerdepths:shale', 'quark:shale']);
+    //scConvert(['darkerdepths:shale', 'quark:shale']);
     scConvert(['ad_astra:sky_stone', 'ae2:sky_stone_block']);
   
     // PneumaticCraft
