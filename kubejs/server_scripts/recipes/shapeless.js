@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
   ]).id(`${ID_PREFIX}compost_from_sawdust`);
 
   // Forbidden and Arcanus
-  event.shapeless('4x forbidden_arcanus:ender_pearl_fragment', 'minecraft:ender_pearl').ID(`${ID_PREFIX}ender_pearl_fragments_from_ender_pearl`);
+  event.shapeless('4x forbidden_arcanus:ender_pearl_fragment', 'minecraft:ender_pearl').id(`${ID_PREFIX}ender_pearl_fragments_from_ender_pearl`);
 
   // Mekanism
   event.shapeless('9x mekanism:ingot_uranium', 'mekanism:block_uranium').id(`${ID_PREFIX}uranium_ingots_from_block`);
