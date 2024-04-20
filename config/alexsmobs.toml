@@ -31,9 +31,11 @@
 	#Whether mimicream can be used to duplicate items.
 	mimicreamRepair = true
 	#Blacklist for items that mimicream cannot make a copy of. Ex: "minecraft:stone_sword", "alexsmobs:blood_sprayer"
-	mimicreamBlacklist = ["alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster", "tetra:modular_sword", "tetra:modular_double", "tetra:modular_single", ""tetra:modular_bow", "tetra:modular_crossbow", "tetra:modular_shield"], "tetra:modular_toolbelt"
+	mimicreamBlacklist = ["alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster", "tetra:modular_sword", "tetra:modular_double", "tetra:modular_single", "tetra:modular_bow", "tetra:modular_crossbow", "tetra:modular_shield", "tetra:modular_toolbelt"]
 	#Whether wild raccoons steal food from chests.
 	raccoonStealFromChests = true
+	#Whether wild crows steal crops from farmland.
+	crowsStealCrops = true
 	#Whether fish oil gives players a special levitation effect.
 	fishOilMeme = true
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
@@ -161,7 +163,7 @@
 		crocSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		flySpawnWeight = 5
+		flySpawnWeight = 2
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		flySpawnRolls = 1
@@ -407,7 +409,7 @@
 		baldEagleSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		tigerSpawnWeight = 100
+		tigerSpawnWeight = 30
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		tigerSpawnRolls = 0
