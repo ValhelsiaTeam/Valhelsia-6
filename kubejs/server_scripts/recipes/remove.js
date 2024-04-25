@@ -110,7 +110,8 @@ ServerEvents.recipes(event => {
 
     // Immersive Engineering
     'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
-    'immersiveengineering:metalpress/blaze_rod', // Replaced to avoid blaze powder duping - changed from 4 dust to 6.
+    'immersiveengineering:crusher/nether_wart', // Removed to avoid nether wart duping.
+    'immersiveengineering:metalpress/blaze_rod', // Removed to avoid blaze powder duping.
     
     // Redundant IE Metal Recipes (either duplicate or replaced)
     'immersiveengineering:crafting/ingot_lead_to_storage_lead',
