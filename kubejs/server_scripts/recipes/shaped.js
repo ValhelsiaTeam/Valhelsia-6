@@ -144,6 +144,8 @@ ServerEvents.recipes(event => {
   // Minecraft
   shaped3x3('minecraft:cobweb', 'minecraft:string', 'cobweb');
 
+  donut('minecraft:chest', '#minecraft:planks', 'oak_chest');
+
   event.shaped('minecraft:dispenser', [
     'AAA',
     'ABA',
