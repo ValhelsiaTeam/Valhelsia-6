@@ -180,8 +180,8 @@ ServerEvents.recipes(event => {
     'pneumaticcraft:copper_nugget', // Duplicate Recipe.
 
     // Quark
-    //'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
-    //'quark:building/crafting/oak_ladder', // Duplicate recipe.
+    'quark:building/crafting/oak_bookshelf', // Duplicate recipe.
+    'quark:building/crafting/oak_ladder', // Duplicate recipe.
     'quark:building/crafting/compressed/carrot_crate', // Replaced with Farmer's Delight version.
     'quark:building/crafting/compressed/potato_crate', // Replaced with Farmer's Delight version.
     'quark:building/crafting/compressed/beetroot_crate', // Replaced with Farmer's Delight version.
