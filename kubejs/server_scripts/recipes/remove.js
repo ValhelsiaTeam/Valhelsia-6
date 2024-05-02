@@ -112,6 +112,10 @@ ServerEvents.recipes(event => {
     'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
     'immersiveengineering:crusher/nether_wart', // Removed to avoid nether wart duping.
     'immersiveengineering:metalpress/blaze_rod', // Removed to avoid blaze powder duping.
+    'immersiveengineering:smelting/ingot_uranium',
+    'immersiveengineering:smelting/ingot_uranium2',
+    'immersiveengineering:smelting/ingot_uranium_from_blasting',
+    'immersiveengineering:smelting/ingot_uranium_from_blasting2',
     
     // Redundant IE Metal Recipes (either duplicate or replaced)
     'immersiveengineering:crafting/ingot_lead_to_storage_lead',
@@ -144,6 +148,10 @@ ServerEvents.recipes(event => {
     'mekanism:charcoal',
     'mekanism:storage_blocks/charcoal',
     'mekanism:processing/uranium/ingot/from_block',
+    'mekanism:processing/uranium/ingot/from_ore_blasting',
+    'mekanism:processing/uranium/ingot/from_ore_smelting',
+
+    // Mekanism Tools
     'mekanismtools:steel/tools/sword',
     'mekanismtools:steel/tools/pickaxe',
     'mekanismtools:steel/tools/axe',
