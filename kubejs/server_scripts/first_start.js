@@ -27,7 +27,7 @@ PlayerEvents.loggedIn(event => {
     event.player.tell(Text.translate('valhelsia.chat.wiki_link').blue().underlined().click('https://wiki.valhelsia.net/'));
     event.player.tell(Text.translate('valhelsia.chat.last_start_message'));
 
-    //event.player.give(Item.of('akashictome:tome', AKASHIC_TOME_NBT));
+    event.player.give(Item.of('eccentrictome:tome', '{"eccentrictome:mods":{ad_astra:{0:{Count:1b,id:"ad_astra:astrodux"}},advancedperipherals:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"advancedperipherals:manual"}}},ae2:{0:{Count:1b,id:"ae2:guide"}},alexscaves:{0:{Count:1b,id:"alexscaves:cave_book"}},alexsmobs:{0:{Count:1b,id:"alexsmobs:animal_dictionary"}},ars_nouveau:{0:{Count:1b,id:"ars_nouveau:worn_notebook"}},botania:{0:{Count:1b,id:"botania:lexicon"}},integrateddynamics:{0:{Count:1b,id:"integrateddynamics:on_the_dynamics_of_integration"}}},"eccentrictome:version":1}'));
   }
 
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new
