@@ -38,8 +38,7 @@ const GENERATE_TIPS_COMMAND = 'gentips';
  * Command registry handler that adds the developer commands.
  * 
  * Command Syntax (assuming default command): 
- * Get Config: /dev [command]
- * Set Config: /dev [command] [arguments]
+ * /dev [command] [arguments]
  */
 ServerEvents.commandRegistry(event => {
   if (!global.config.developer) {
