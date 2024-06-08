@@ -270,6 +270,35 @@ ServerEvents.recipes(event => {
   // Phantasmic (Nourished Nether)
   // shaped3x3('nourished_nether:wither_bone_block', 'nourished_nether:wither_bone', `${ID_PREFIX}wither_bone_block_from_wither_bone`);
 
+  // PneumaticCraft: Repressurized
+  event.shaped('pneumaticcraft:speed_upgrade', [
+    'LSL',
+    'SFS',
+    'LSL'
+  ], {
+    S: 'minecraft:sugar',
+    L: '#pneumaticcraft:upgrade_components',
+    F: {
+      type: 'immersiveengineering:fluid',
+      amount: 1000,
+      tag: 'forge:lubricant'
+    }
+  }).id(`${ID_PREFIX}pneumaticcraft/speed_upgrade`);
+
+  event.shaped('2x pneumaticcraft:speed_upgrade', [
+    'LSL',
+    'SFS',
+    'LSL'
+  ], {
+    S: 'pneumaticcraft:glycerol',
+    L: '#pneumaticcraft:upgrade_components',
+    F: {
+      type: 'immersiveengineering:fluid',
+      amount: 1000,
+      tag: 'forge:lubricant'
+    }
+  }).id(`${ID_PREFIX}pneumaticcraft/speed_upgrade_from_glycerol`);
+
   // Quark
   shaped3x3('quark:bonded_ravager_hide', 'quark:ravager_hide', 'bonded_ravager_hide_from_ravager_hide');
 

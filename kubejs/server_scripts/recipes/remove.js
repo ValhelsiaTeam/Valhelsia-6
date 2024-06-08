@@ -186,6 +186,8 @@ ServerEvents.recipes(event => {
 
     // PneumaticCraft: Repressurized
     'pneumaticcraft:copper_nugget', // Duplicate Recipe.
+    'pneumaticcraft:speed_upgrade', // Broken by KubeJS, fixed with a replacement recipe.
+    'pneumaticcraft:speed_upgrade_from_glycerol', // Broken by KubeJS, fixed with a replacement recipe.
 
     // Quark
     'quark:building/crafting/oak_bookshelf', // Duplicate recipe.

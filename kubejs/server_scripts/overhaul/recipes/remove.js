@@ -25,6 +25,7 @@ ServerEvents.recipes(event => {
 
   // Remove recipes by recipe ID.
   [
+    'valhelsia:crafting/pneumaticcraft/speed_upgrade', // Now only made with glycerol, not sugar.
     'minecraft:bread', // Now requires dough + cooking.
     'ars_elemental:glyph_conjure_terrain',
     'ars_nouveau:enchanters_eye',
@@ -54,7 +55,6 @@ ServerEvents.recipes(event => {
     // 'moreminecarts:silica_steel_mix',
     // 'moreminecarts:silica_steel_blasting',
     // 'moreminecarts:silica_steel_smelting',
-    'pneumaticcraft:speed_upgrade', // Now only made with glycerol.
     'quark:tweaks/crafting/utility/bent/bread',// Now requires dough + cooking.
     'sophisticatedbackpacks:backpack',
     'sophisticatedbackpacks:void_upgrade',
