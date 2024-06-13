@@ -46,6 +46,12 @@ ServerEvents.tags('entity_type', event => {
     'twilightforest:wraith',
   ]);
 
+  event.add('forbidden_arcanus:quantum_catcher_blacklisted', [
+    // Picking up these mobs causes the game to disconnect from a server.
+    'alexsmobs:cachalot_whale',
+    'alexsmobs:giant_squid',
+  ]);
+
   // Add Halloween Event Candy to Spoopy Mobs
   event.add('valhelsia_tweaks:drops_candy', [
     'minecraft:zombie',
