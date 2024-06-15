@@ -5,9 +5,6 @@
 		timestamps_format = 0
 		streamer_mode = false
 		modcore_warning = true
-		essential_gui_scale = 0
-		gui_scale = true
-		prompt_when_visiting_trusted_hosts = false
 
 	[general.online_status]
 		show_essential_indicator_on_tab = true
@@ -15,27 +12,30 @@
 
 	[general.experience]
 		closer_placement_of_minimal_essential_menu = true
+		darken_re-textured_menu_buttons = false
 		essential_menu_layout = 0
-		automatic_updates = false
 		enable_essential = true
-		show_menus = true
+		use_vanilla_button_texture = false
 		quick_action_bar = true
 
 [hidden]
+	previously_launched_with_container = 1
 
 	[hidden.hidden]
 		emote_perspective = 1
-		wardrobesortoptionmigration = true
-		wardrobesortoption = 1
+		coinspurchasecreatorcode = "__default__"
 		screenshotbrowseritemsperrow = 3
 		spspinnedgamerules = ""
+		showemotepagekeybindbanner = true
+		coinsselectedcurrency = "USD"
 
 [emotes]
 
 	[emotes.general]
+		emotes_preview = false
 		disable_emotes = false
 		play_emotes_in_third_person_view = true
-		emote_preview_in_first_person = true
+		emote_preview = false
 
 [privacy]
 
@@ -48,12 +48,15 @@
 	[notifications.general]
 		disable_all_notifications = false
 		host_world_ip_warning = true
-		update_notifications = true
+		update_notifications = false
 		screenshot_toast_duration = 1
 		message_sound = true
 		online_friend_alert = true
 		message_notifications = true
 		group_message_notifications = true
+
+	[notifications.warnings]
+		link_opening_warning = true
 
 [quality_of_life]
 
@@ -81,16 +84,67 @@
 		essential_screenshots = true
 		screenshot_sounds = true
 		"screenshot_quick_action_#1_-_top_left" = 5
+		post_screenshot_action = 0
 		"screenshot_quick_action_#4_-_bottom_right" = 4
 
 [cosmetics]
 
 	[cosmetics.general]
-		cosmetic_armor_handling = 0
 		hide_cosmetics_on_server_skins = false
 		disable_cosmetics = false
 		"cosmetic_&_armor_conflict_-_on_myself" = 0
 		disable_cosmetics_in_inventory = false
 		"cosmetic_&_armor_conflict_-_on_others" = 0
-		hide_your_cosmetics = false
+
+[__meta]
+	version = 12
+
+	[__meta.migration_log]
+
+		[__meta.migration_log.0]
+
+			[__meta.migration_log.0.changed]
+				"general.general.gui_scale" = true
+
+		[__meta.migration_log.11]
+
+			[__meta.migration_log.11.changed]
+				"general.general.essential_gui_scale" = 0
+
+		[__meta.migration_log.1]
+
+			[__meta.migration_log.1.changed]
+				"cosmetics.general.cosmetic_armor_handling" = 0
+
+		[__meta.migration_log.3]
+
+			[__meta.migration_log.3.changed]
+				"hidden.hidden.wardrobesortoptionmigration" = true
+				"hidden.hidden.wardrobesortoption" = 1
+
+		[__meta.migration_log.4]
+
+			[__meta.migration_log.4.changed]
+				"general.experience.show_menus" = true
+
+		[__meta.migration_log.6]
+
+			[__meta.migration_log.6.changed]
+				"general.experience.automatic_updates" = false
+
+		[__meta.migration_log.7]
+
+			[__meta.migration_log.7.changed]
+				"cosmetics.general.hide_your_cosmetics" = false
+
+		[__meta.migration_log.9]
+
+			[__meta.migration_log.9.changed]
+				"general.general.prompt_when_visiting_trusted_hosts" = false
+
+		[__meta.migration_log.10]
+			added = ["emotes.general.emotes_preview"]
+
+			[__meta.migration_log.10.changed]
+				"emotes.general.emote_preview_in_first_person" = true
 
