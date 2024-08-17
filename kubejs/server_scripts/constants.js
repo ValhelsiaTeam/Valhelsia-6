@@ -7,8 +7,10 @@
 
 /**
  * @file Global Constants for use in other scripts.
- * @copyright Valhelsia Inc 2023
+ * @copyright Valhelsia Inc 2023-2024
  */
+
+const ECCENTRIC_TOME_NBT = '{"eccentrictome:mods":{ad_astra:{0:{Count:1b,id:"ad_astra:astrodux"}},advancedperipherals:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"advancedperipherals:manual"}}},ae2:{0:{Count:1b,id:"ae2:guide"}},alexscaves:{0:{Count:1b,id:"alexscaves:cave_book"}},alexsmobs:{0:{Count:1b,id:"alexsmobs:animal_dictionary"}},ars_nouveau:{0:{Count:1b,id:"ars_nouveau:worn_notebook"}},botania:{0:{Count:1b,id:"botania:lexicon"}},integrateddynamics:{0:{Count:1b,id:"integrateddynamics:on_the_dynamics_of_integration"}}},"eccentrictome:version":1}';
 
 /**
  * Minecraft's default colors, as used in vanilla item IDs and by most mods.

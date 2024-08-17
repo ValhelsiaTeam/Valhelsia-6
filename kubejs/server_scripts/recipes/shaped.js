@@ -12,7 +12,7 @@
  * 
  * @see shapeless.js
  * 
- * @copyright Valhelsia Inc 2024
+ * @copyright Valhelsia Inc 2023-2024
  */
 
 /**
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
   };
 
   // Valhelsia
-  //plusWrapped(Item.of('akashictome:tome', AKASHIC_TOME_NBT), 'minecraft:book', '#forge:bookshelves', 'filled_akashic_tome');
+  plusWrapped(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT), 'minecraft:book', '#forge:bookshelves', 'filled_eccentric_tome');
 
   // Minecraft
   shaped3x3('minecraft:cobweb', 'minecraft:string', 'cobweb');
