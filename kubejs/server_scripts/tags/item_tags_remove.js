@@ -7,7 +7,7 @@
 
 /**
  * @file Item Tag Removal for Valhelsia 6.
- * @copyright Valhelsia Inc 2023
+ * @copyright Valhelsia Inc 2023-2024
  */
 
 /**
@@ -15,5 +15,12 @@
  * @see item_tags.js
  */
 ServerEvents.tags('item', event => {
+  // Minecraft Tags
+  event.remove('minecraft:logs_that_burn', [
+    '#malum:runewood_logs',
+  ]);
 
+  // Forge Tags
+
+  // Individual Mod Tags
 });
