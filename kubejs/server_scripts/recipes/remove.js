@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
     'minecraft:furnace', // Quark provides an alternative.
 
     // Phantasmic
-    'nourished_nether:smelt_soul_soil', // Conflicts with Scoria smelting.
+    'nourished_nether:smelt_soul_sand', // Conflicts with Scoria smelting.
 
     // PneumaticCraft: Repressurized
     'pneumaticcraft:copper_nugget', // Duplicate Recipe.
