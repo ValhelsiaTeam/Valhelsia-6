@@ -50,11 +50,12 @@ ServerEvents.recipes(event => {
    * @param {(string|Item)} output Resulting hammered item.
    * @param {(string|Item)} input Ingredient to be hammered.
    */
+  
   const hammering = (output, input) => {
     let itemID = `${OutputItem.of(output).item.id.replace(':', '/')}_from_${InputItem.of(input).ingredient.first.id.replace(':', '_')}`;
 
     // Ad Astra
-    event.custom({
+    /** event.custom({
       type: 'ad_astra:hammering',
       ingredients: [
         {
@@ -63,7 +64,7 @@ ServerEvents.recipes(event => {
         Item.of(input).toJson()
       ],
       result: Item.of(output).toJson(),
-    }).id(`${ID_PREFIX}ad_astra_hammering/${itemID}`);
+    }).id(`${ID_PREFIX}ad_astra_hammering/${itemID}`); */
 
     // Immersive Engineering
     event.shapeless(output, [input, 'immersiveengineering:hammer']).id(`${ID_PREFIX}immersiveengineering_hammering/${itemID}`);
