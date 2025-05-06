@@ -12,24 +12,16 @@
  */
 
 /**
- * Prevents breaking Clibano Furnace from crashing the game:
+ * Prevent breaking a Clibano Furnace from crashing the game.
  */
-BlockEvents.broken('forbidden_arcanus:clibano_center', event => {
-  event.block.set('minecraft:air');
-  event.cancel();
-});
-
-BlockEvents.broken('forbidden_arcanus:clibano_corner', event => {
-  event.block.set('minecraft:air');
-  event.cancel();
-});
-
-BlockEvents.broken('forbidden_arcanus:clibano_side_vertical', event => {
-  event.block.set('minecraft:air');
-  event.cancel();
-});
-
-BlockEvents.broken('forbidden_arcanus:clibano_side_horizontal', event => {
-  event.block.set('minecraft:air');
-  event.cancel();
+[
+  'forbidden_arcanus:clibano_center',
+  'forbidden_arcanus:clibano_corner',
+  'forbidden_arcanus:clibano_side_vertical',
+  'forbidden_arcanus:clibano_side_horizontal',
+].forEach((block) => {
+  BlockEvents.broken(block, event => {
+    event.block.set('minecraft:air');
+    event.cancel();
+  });
 });
